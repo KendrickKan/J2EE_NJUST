@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	
+	<body>
+		
+		<form>
+			<input type="checkbox" name="xuhao" value="1">1<br>
+			<input type="checkbox" name="xuhao" value="2">2<br>
+		</form>
+		
+	</body>
+	
+
+</html>

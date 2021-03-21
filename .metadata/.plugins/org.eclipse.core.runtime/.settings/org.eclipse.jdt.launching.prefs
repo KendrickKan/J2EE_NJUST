@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType41,com.sun.java.jdk8.win32.x86_64_1.8.0.v112" defaultVMConnector\="">\r\n<vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\r\n<vm id\="com.sun.java.jdk8.win32.x86_64_1.8.0.v112" name\="Java JDK VM 1.8.0_v112 Windows" path\="D\:\\MyEclipse 2017 CI\\binary\\com.sun.java.jdk8.win32.x86_64_1.8.0.v112"/>\r\n</vmType>\r\n</vmSettings>\r\n

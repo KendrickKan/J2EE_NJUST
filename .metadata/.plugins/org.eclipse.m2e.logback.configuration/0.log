@@ -1,0 +1,152 @@
+2021-03-13 15:03:10,502 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2021-03-13 15:03:13,994 [Worker-17] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|https://repo.maven.apache.org/maven2
+2021-03-13 15:03:19,301 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces/1.8.0/icefaces-1.8.0.jar
+2021-03-13 15:03:19,545 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\1.8.0\ICEfaces\icefaces.jar to C:\Users\21\.m2\repository\org\icefaces\icefaces\1.8.0\icefaces-1.8.0.jar
+2021-03-13 15:03:19,588 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall1006038169588980645.pom to C:\Users\21\.m2\repository\org\icefaces\icefaces\1.8.0\icefaces-1.8.0.pom
+2021-03-13 15:03:31,500 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces/1.7.2/icefaces-1.7.2.jar
+2021-03-13 15:03:31,525 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\1.7.2\ICEfaces\icefaces.jar to C:\Users\21\.m2\repository\org\icefaces\icefaces\1.7.2\icefaces-1.7.2.jar
+2021-03-13 15:03:31,557 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall5188519144354040246.pom to C:\Users\21\.m2\repository\org\icefaces\icefaces\1.7.2\icefaces-1.7.2.pom
+2021-03-13 15:03:32,752 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces/1.7.1/icefaces-1.7.1.jar
+2021-03-13 15:03:32,758 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\1.7.1\ICEfaces\icefaces.jar to C:\Users\21\.m2\repository\org\icefaces\icefaces\1.7.1\icefaces-1.7.1.jar
+2021-03-13 15:03:32,778 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall2519481600183098380.pom to C:\Users\21\.m2\repository\org\icefaces\icefaces\1.7.1\icefaces-1.7.1.pom
+2021-03-13 15:03:33,640 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces/1.7.0/icefaces-1.7.0.jar
+2021-03-13 15:03:33,646 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\1.7.0\ICEfaces\icefaces.jar to C:\Users\21\.m2\repository\org\icefaces\icefaces\1.7.0\icefaces-1.7.0.jar
+2021-03-13 15:03:33,666 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall8665635885017378781.pom to C:\Users\21\.m2\repository\org\icefaces\icefaces\1.7.0\icefaces-1.7.0.pom
+2021-03-13 15:03:34,809 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces/1.6.2/icefaces-1.6.2.jar
+2021-03-13 15:03:34,815 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\1.6.2\ICEfaces\icefaces.jar to C:\Users\21\.m2\repository\org\icefaces\icefaces\1.6.2\icefaces-1.6.2.jar
+2021-03-13 15:03:34,836 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall1417625375016015209.pom to C:\Users\21\.m2\repository\org\icefaces\icefaces\1.6.2\icefaces-1.6.2.pom
+2021-03-13 15:03:36,057 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces/1.6.1/icefaces-1.6.1.jar
+2021-03-13 15:03:36,064 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\1.6.1\ICEfaces\icefaces.jar to C:\Users\21\.m2\repository\org\icefaces\icefaces\1.6.1\icefaces-1.6.1.jar
+2021-03-13 15:03:36,084 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall128362562954634796.pom to C:\Users\21\.m2\repository\org\icefaces\icefaces\1.6.1\icefaces-1.6.1.pom
+2021-03-13 15:03:36,937 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icepush/icepush/2.0.2/icepush-2.0.2.jar
+2021-03-13 15:03:36,942 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\org.icepush\icepush\2.0\icepush.jar to C:\Users\21\.m2\repository\org\icepush\icepush\2.0.2\icepush-2.0.2.jar
+2021-03-13 15:03:36,968 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall3189475927735654104.pom to C:\Users\21\.m2\repository\org\icepush\icepush\2.0.2\icepush-2.0.2.pom
+2021-03-13 15:03:37,634 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-comps/1.8.0/icefaces-comps-1.8.0.jar
+2021-03-13 15:03:37,640 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\1.8.0\ICEfaces\icefaces-comps.jar to C:\Users\21\.m2\repository\org\icefaces\icefaces-comps\1.8.0\icefaces-comps-1.8.0.jar
+2021-03-13 15:03:37,674 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall9130671246755557991.pom to C:\Users\21\.m2\repository\org\icefaces\icefaces-comps\1.8.0\icefaces-comps-1.8.0.pom
+2021-03-13 15:03:38,913 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-comps/1.7.2/icefaces-comps-1.7.2.jar
+2021-03-13 15:03:38,920 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\1.7.2\ICEfaces\icefaces-comps.jar to C:\Users\21\.m2\repository\org\icefaces\icefaces-comps\1.7.2\icefaces-comps-1.7.2.jar
+2021-03-13 15:03:38,942 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall6140103670776711337.pom to C:\Users\21\.m2\repository\org\icefaces\icefaces-comps\1.7.2\icefaces-comps-1.7.2.pom
+2021-03-13 15:03:39,858 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-comps/1.7.1/icefaces-comps-1.7.1.jar
+2021-03-13 15:03:39,870 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\1.7.1\ICEfaces\icefaces-comps.jar to C:\Users\21\.m2\repository\org\icefaces\icefaces-comps\1.7.1\icefaces-comps-1.7.1.jar
+2021-03-13 15:03:39,899 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall3396436082088101740.pom to C:\Users\21\.m2\repository\org\icefaces\icefaces-comps\1.7.1\icefaces-comps-1.7.1.pom
+2021-03-13 15:03:40,616 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-comps/1.7.0/icefaces-comps-1.7.0.jar
+2021-03-13 15:03:40,622 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\1.7.0\ICEfaces\icefaces-comps.jar to C:\Users\21\.m2\repository\org\icefaces\icefaces-comps\1.7.0\icefaces-comps-1.7.0.jar
+2021-03-13 15:03:40,641 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall7841162901723007673.pom to C:\Users\21\.m2\repository\org\icefaces\icefaces-comps\1.7.0\icefaces-comps-1.7.0.pom
+2021-03-13 15:03:41,907 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-comps/1.6.2/icefaces-comps-1.6.2.jar
+2021-03-13 15:03:41,913 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\1.6.2\ICEfaces\icefaces-comps.jar to C:\Users\21\.m2\repository\org\icefaces\icefaces-comps\1.6.2\icefaces-comps-1.6.2.jar
+2021-03-13 15:03:41,934 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall6022174589072682277.pom to C:\Users\21\.m2\repository\org\icefaces\icefaces-comps\1.6.2\icefaces-comps-1.6.2.pom
+2021-03-13 15:03:42,857 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-comps/1.6.1/icefaces-comps-1.6.1.jar
+2021-03-13 15:03:42,877 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\1.6.1\ICEfaces\icefaces-comps.jar to C:\Users\21\.m2\repository\org\icefaces\icefaces-comps\1.6.1\icefaces-comps-1.6.1.jar
+2021-03-13 15:03:42,899 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall3152870903507447837.pom to C:\Users\21\.m2\repository\org\icefaces\icefaces-comps\1.6.1\icefaces-comps-1.6.1.pom
+2021-03-13 15:03:43,570 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-facelets/1.8.0/icefaces-facelets-1.8.0.jar
+2021-03-13 15:03:43,583 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\1.8.0\ICEfaces-Facelets\icefaces-facelets.jar to C:\Users\21\.m2\repository\org\icefaces\icefaces-facelets\1.8.0\icefaces-facelets-1.8.0.jar
+2021-03-13 15:03:43,602 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall7228575593511037795.pom to C:\Users\21\.m2\repository\org\icefaces\icefaces-facelets\1.8.0\icefaces-facelets-1.8.0.pom
+2021-03-13 15:03:44,284 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-facelets/1.7.2/icefaces-facelets-1.7.2.jar
+2021-03-13 15:03:44,289 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\1.7.2\ICEfaces-Facelets\icefaces-facelets.jar to C:\Users\21\.m2\repository\org\icefaces\icefaces-facelets\1.7.2\icefaces-facelets-1.7.2.jar
+2021-03-13 15:03:44,312 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall4299370310936665683.pom to C:\Users\21\.m2\repository\org\icefaces\icefaces-facelets\1.7.2\icefaces-facelets-1.7.2.pom
+2021-03-13 15:03:50,058 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-facelets/1.7.1/icefaces-facelets-1.7.1.jar
+2021-03-13 15:03:50,067 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\1.7.0\ICEfaces-Facelets\icefaces-facelets.jar to C:\Users\21\.m2\repository\org\icefaces\icefaces-facelets\1.7.1\icefaces-facelets-1.7.1.jar
+2021-03-13 15:03:50,089 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall3385596434516654644.pom to C:\Users\21\.m2\repository\org\icefaces\icefaces-facelets\1.7.1\icefaces-facelets-1.7.1.pom
+2021-03-13 15:03:51,850 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-facelets/1.7.0/icefaces-facelets-1.7.0.jar
+2021-03-13 15:03:51,859 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\1.7.0\ICEfaces-Facelets\icefaces-facelets.jar to C:\Users\21\.m2\repository\org\icefaces\icefaces-facelets\1.7.0\icefaces-facelets-1.7.0.jar
+2021-03-13 15:03:51,887 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall1194795510457471945.pom to C:\Users\21\.m2\repository\org\icefaces\icefaces-facelets\1.7.0\icefaces-facelets-1.7.0.pom
+2021-03-13 15:03:52,607 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-facelets/1.6.2/icefaces-facelets-1.6.2.jar
+2021-03-13 15:03:52,615 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\1.6.2\ICEfaces-Facelets\icefaces-facelets.jar to C:\Users\21\.m2\repository\org\icefaces\icefaces-facelets\1.6.2\icefaces-facelets-1.6.2.jar
+2021-03-13 15:03:52,637 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall8812325433013676171.pom to C:\Users\21\.m2\repository\org\icefaces\icefaces-facelets\1.6.2\icefaces-facelets-1.6.2.pom
+2021-03-13 15:03:54,602 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-facelets/1.6.1/icefaces-facelets-1.6.1.jar
+2021-03-13 15:03:54,610 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\1.6.1\ICEfaces-Facelets\icefaces-facelets.jar to C:\Users\21\.m2\repository\org\icefaces\icefaces-facelets\1.6.1\icefaces-facelets-1.6.1.jar
+2021-03-13 15:03:54,632 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall4235635262408065799.pom to C:\Users\21\.m2\repository\org\icefaces\icefaces-facelets\1.6.1\icefaces-facelets-1.6.1.pom
+2021-03-13 15:03:55,877 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sourceforge/jexcelapi/jxl/2.6.8/jxl-2.6.8.jar
+2021-03-13 15:03:55,893 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\net.sourceforge.jexcelapi\jxl\2.6.8\jxl.jar to C:\Users\21\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.8\jxl-2.6.8.jar
+2021-03-13 15:03:55,929 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall4945940340775248479.pom to C:\Users\21\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.8\jxl-2.6.8.pom
+2021-03-13 15:03:57,647 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icefaces/icefaces-mobi/1.3.0/icefaces-mobi-1.3.0.jar
+2021-03-13 15:03:57,665 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\org.icefaces\icefaces-mobi\1.3\icefaces-mobi.jar to C:\Users\21\.m2\repository\org\icefaces\icefaces-mobi\1.3.0\icefaces-mobi-1.3.0.jar
+2021-03-13 15:03:57,692 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall1369763293433733331.pom to C:\Users\21\.m2\repository\org\icefaces\icefaces-mobi\1.3.0\icefaces-mobi-1.3.0.pom
+2021-03-13 15:03:58,359 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/icepush/icepush/3.0.0/icepush-3.0.0.jar
+2021-03-13 15:03:58,364 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.icefaces_13.0.0.me201602031002\data\org.icepush\icepush\3.0\icepush.jar to C:\Users\21\.m2\repository\org\icepush\icepush\3.0.0\icepush-3.0.0.jar
+2021-03-13 15:03:58,385 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall1599699199214337946.pom to C:\Users\21\.m2\repository\org\icepush\icepush\3.0.0\icepush-3.0.0.pom
+2021-03-13 15:03:59,055 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/activation/1.0.2/activation-1.0.2.jar
+2021-03-13 15:03:59,060 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.j2eedt.core_13.0.0.me201612211440\data\libraryset\1.4\activation.jar to C:\Users\21\.m2\repository\javax\activation\activation\1.0.2\activation-1.0.2.jar
+2021-03-13 15:03:59,098 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall1578379280840018690.pom to C:\Users\21\.m2\repository\javax\activation\activation\1.0.2\activation-1.0.2.pom
+2021-03-13 15:03:59,825 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/mail/mail/1.3.1/mail-1.3.1.jar
+2021-03-13 15:03:59,845 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.j2eedt.core_13.0.0.me201612211440\data\libraryset\1.4\mail.jar to C:\Users\21\.m2\repository\javax\mail\mail\1.3.1\mail-1.3.1.jar
+2021-03-13 15:03:59,881 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall4893573522327852775.pom to C:\Users\21\.m2\repository\javax\mail\mail\1.3.1\mail-1.3.1.pom
+2021-03-13 15:04:00,596 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/xml/namespace/1.0.1/namespace-1.0.1.jar
+2021-03-13 15:04:00,602 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing D:\MyEclipse 2017 CI\plugins\com.genuitec.eclipse.j2eedt.core_13.0.0.me201612211440\data\libraryset\1.4\namespace.jar to C:\Users\21\.m2\repository\javax\xml\namespace\1.0.1\namespace-1.0.1.jar
+2021-03-13 15:04:00,622 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Installing C:\Users\21\AppData\Local\Temp\mvninstall4415331372198775113.pom to C:\Users\21\.m2\repository\javax\xml\namespace\1.0.1\namespace-1.0.1.pom
+2021-03-13 15:04:02,504 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/sql/jdbc-stdext/2.0/jdbc-stdext-2.0.jar
+2021-03-13 15:05:23,130 [Worker-7] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-13 15:05:26,593 [Worker-2] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|https://repo.maven.apache.org/maven2
+2021-03-13 15:23:06,335 [Worker-3] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2021-03-13 15:23:06,418 [Worker-3] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2021-03-13 15:30:45,896 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-13 15:30:49,517 [Worker-10] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|https://repo.maven.apache.org/maven2
+2021-03-13 15:41:45,884 [Worker-7] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2021-03-13 15:41:45,950 [Worker-7] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2021-03-13 15:51:59,531 [Worker-10] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to update index for central|https://repo.maven.apache.org/maven2
+org.eclipse.core.runtime.OperationCanceledException: null
+	at org.eclipse.m2e.core.internal.index.nexus.AetherClientResourceFetcher.retrieve(AetherClientResourceFetcher.java:90) ~[org.eclipse.m2e.core_1.7.0.me201611191457.jar:na]
+	at org.apache.maven.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:35) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater$LocalCacheIndexAdaptor.setIndexFile(DefaultIndexUpdater.java:700) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:829) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:135) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1238) [org.eclipse.m2e.core_1.7.0.me201611191457.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateIndex(NexusIndexManager.java:1193) [org.eclipse.m2e.core_1.7.0.me201611191457.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager$1.run(NexusIndexManager.java:703) [org.eclipse.m2e.core_1.7.0.me201611191457.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob.run(IndexUpdaterJob.java:72) [org.eclipse.m2e.core_1.7.0.me201611191457.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2021-03-13 15:52:13,038 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-13 15:52:17,077 [Worker-9] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|https://repo.maven.apache.org/maven2
+2021-03-14 12:31:52,458 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-14 12:31:56,831 [Worker-3] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|https://repo.maven.apache.org/maven2
+2021-03-14 12:33:22,840 [Worker-8] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2021-03-14 12:33:39,842 [Worker-0] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2021-03-14 12:48:24,514 [Worker-3] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to update index for central|https://repo.maven.apache.org/maven2
+org.eclipse.core.runtime.OperationCanceledException: null
+	at org.eclipse.m2e.core.internal.index.nexus.AetherClientResourceFetcher.retrieve(AetherClientResourceFetcher.java:90) ~[org.eclipse.m2e.core_1.7.0.me201611191457.jar:na]
+	at org.apache.maven.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:35) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater$LocalCacheIndexAdaptor.setIndexFile(DefaultIndexUpdater.java:700) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:829) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:135) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1238) [org.eclipse.m2e.core_1.7.0.me201611191457.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateIndex(NexusIndexManager.java:1193) [org.eclipse.m2e.core_1.7.0.me201611191457.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager$1.run(NexusIndexManager.java:703) [org.eclipse.m2e.core_1.7.0.me201611191457.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob.run(IndexUpdaterJob.java:72) [org.eclipse.m2e.core_1.7.0.me201611191457.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2021-03-14 13:07:14,727 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-14 13:07:18,560 [Worker-11] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|https://repo.maven.apache.org/maven2
+2021-03-14 13:07:53,381 [Worker-7] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2021-03-14 13:07:58,029 [Worker-4] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2021-03-14 13:15:52,304 [Worker-11] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to update index for central|https://repo.maven.apache.org/maven2
+org.eclipse.core.runtime.OperationCanceledException: null
+	at org.eclipse.m2e.core.internal.index.nexus.AetherClientResourceFetcher.retrieve(AetherClientResourceFetcher.java:90) ~[org.eclipse.m2e.core_1.7.0.me201611191457.jar:na]
+	at org.apache.maven.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:35) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater$LocalCacheIndexAdaptor.setIndexFile(DefaultIndexUpdater.java:700) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:829) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:135) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1238) [org.eclipse.m2e.core_1.7.0.me201611191457.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateIndex(NexusIndexManager.java:1193) [org.eclipse.m2e.core_1.7.0.me201611191457.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager$1.run(NexusIndexManager.java:703) [org.eclipse.m2e.core_1.7.0.me201611191457.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob.run(IndexUpdaterJob.java:72) [org.eclipse.m2e.core_1.7.0.me201611191457.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2021-03-14 13:16:05,002 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-15 08:57:55,908 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-03-15 09:49:09,242 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-15 09:56:29,784 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-15 09:57:23,806 [Worker-4] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2021-03-15 09:57:23,867 [Worker-4] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2021-03-15 10:05:25,034 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-18 20:07:55,196 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-03-18 20:09:06,908 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2021-03-18 20:09:06,974 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2021-03-19 12:09:49,880 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-19 14:11:48,784 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-19 14:20:03,852 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-19 14:52:00,119 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-20 16:34:36,948 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-03-20 16:35:31,680 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2021-03-20 16:35:31,740 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2021-03-21 22:27:17,953 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-03-21 22:27:49,410 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2021-03-21 22:27:49,471 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store

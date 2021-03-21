@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	
+	<body>
+		
+		<table border="1px" cellspacing="0px" style="border-collapse:collapse">
+    <tr>
+        <th>
+        <div style="width: 100%;">
+         <div style="width: 100px;height: 20px;">序号</div>
+    	</div>
+		</th>
+        <th>       
+         <div style="width: 100%;">
+         <div style="width: 500px;height: 20px;">作业标题</div>
+    	</div>
+    	</th>
+        <th>
+          <div style="width: 100%;">
+         <div style="width: 100px;height: 20px;">创建者</div>
+    	</div>
+		</th>
+        <th>
+         <div style="width: 100%;">
+         <div style="width: 100px;height: 20px;">创建时间</div>
+    	</div>
+		</th>
+    </tr>
+    <tr>
+        <td><input type="checkbox" name="xuhao" value="1"style="text-align:center">1<br></td>
+        <td><style="text-align:center">开发环境搭建和应用训练</td>
+        <td><style="text-align:center">阚东</td>
+        <td><style="text-align:center">2021.03.12</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" name="xuhao" value="2">2<br></td>
+        <td>HTML页面设计</td>
+        <td>阚东</td>
+        <td>2021.03.17</td>
+    </tr>
+		</table>
+		
+	</body>
+	
+
+</html>

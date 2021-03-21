@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailsEditorPageState>
+    <ContentOutlineState>
+        <Ratio>0.2998236331569665</Ratio>
+        <Visible>true</Visible>
+        <Root>
+            <Children>
+                <MasterDetailsNodeState>
+                    <Label>JNDI Environment References</Label>
+                    <Selected>true</Selected>
+                </MasterDetailsNodeState>
+            </Children>
+        </Root>
+    </ContentOutlineState>
+</MasterDetailsEditorPageState>

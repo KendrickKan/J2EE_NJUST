@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	
+	<body>
+		<form action="">
+			”√ªß£∫<input type="text" name="user">
+			<br>
+			√‹¬Î£∫<input type="password" name="password">
+		</form>
+		
+		<form>
+			<input type="checkbox" name="sex" value="male">Male<br>
+			<input type="checkbox" name="sex" value="female">Female
+		</form>
+	</body>
+
+</html>
