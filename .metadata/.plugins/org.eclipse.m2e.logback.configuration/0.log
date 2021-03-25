@@ -150,3 +150,35 @@ org.eclipse.core.runtime.OperationCanceledException: null
 2021-03-21 22:27:17,953 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2021-03-21 22:27:49,410 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
 2021-03-21 22:27:49,471 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2021-03-25 14:31:53,165 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-03-25 14:34:51,806 [Worker-6] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2021-03-25 14:34:51,938 [Worker-6] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2021-03-25 14:34:52,085 [Worker-6] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2021-03-25 14:43:00,700 [Worker-7] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-25 14:43:20,788 [Worker-7] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2021-03-25 14:43:20,892 [Worker-7] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2021-03-25 14:43:21,476 [Worker-7] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2021-03-25 19:30:21,802 [Worker-7] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-25 19:56:27,211 [Worker-22] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2021-03-25 19:56:27,271 [Worker-22] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2021-03-25 19:56:27,336 [Worker-22] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2021-03-25 21:47:41,872 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-25 21:47:56,507 [Worker-3] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2021-03-25 21:47:56,574 [Worker-3] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2021-03-25 21:47:56,951 [Worker-3] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2021-03-25 21:49:15,934 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-25 21:49:44,579 [Worker-0] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2021-03-25 21:49:44,636 [Worker-0] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2021-03-25 21:49:44,997 [Worker-0] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2021-03-25 21:53:35,094 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-25 21:53:51,986 [Worker-4] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2021-03-25 21:53:52,069 [Worker-4] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2021-03-25 21:53:52,517 [Worker-4] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2021-03-25 21:54:41,622 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-25 21:55:43,714 [Worker-11] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2021-03-25 21:55:43,776 [Worker-11] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2021-03-25 21:55:44,112 [Worker-11] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2021-03-25 22:23:24,141 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-25 22:26:32,085 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2021-03-25 22:26:32,172 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2021-03-25 22:26:32,249 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
