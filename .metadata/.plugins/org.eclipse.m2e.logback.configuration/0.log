@@ -182,3 +182,5 @@ org.eclipse.core.runtime.OperationCanceledException: null
 2021-03-25 22:26:32,085 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
 2021-03-25 22:26:32,172 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
 2021-03-25 22:26:32,249 [Worker-12] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2021-03-25 22:46:47,547 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-25 22:49:10,821 [Worker-7] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
