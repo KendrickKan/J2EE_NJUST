@@ -2,26 +2,23 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
   <display-name>ThirdHomework</display-name>
   <servlet>
-    <servlet-name>HelloWorldServlet</servlet-name>
-    <display-name>This is the display name of my J2EE component</display-name>
     <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HelloWorldServlet</servlet-name>
     <servlet-class>HelloWorldServlet</servlet-class>
   </servlet>
   <servlet>
-    <servlet-name>HttpRequestTrain</servlet-name>
-    <display-name>This is the display name of my J2EE component</display-name>
     <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HttpRequestTrain</servlet-name>
     <servlet-class>HttpRequestTrain</servlet-class>
   </servlet>
   <servlet>
-    <servlet-name>HttpResponseTrain</servlet-name>
-    <display-name>This is the display name of my J2EE component</display-name>
     <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HttpResponseTrain</servlet-name>
     <servlet-class>HttpResponseTrain</servlet-class>
   </servlet>
-
-
-
   <servlet-mapping>
     <servlet-name>HelloWorldServlet</servlet-name>
     <url-pattern>/servlet/HelloWorldServlet</url-pattern>

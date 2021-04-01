@@ -6,7 +6,7 @@
 	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
 	<section name="NewWebXmlLinkCreationWizardPage">
 		<item value="true" key="do_mapping"/>
-		<item value="/ThirdHomework/WebRoot/WEB-INF" key="filePath"/>
+		<item value="/FourthHomework/WebRoot/WEB-INF" key="filePath"/>
 		<item value="This is the description of my J2EE component" key="description"/>
 		<item value="This is the display name of my J2EE component" key="display_name"/>
 	</section>
