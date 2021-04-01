@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>run.html</title>
+
+  <meta name="keywords" content="keyword1,keyword2,keyword3">
+  <meta name="description" content="this is my main page">
+  <meta name="content-type" content="text/html;charset=GB2312">
+
+  <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+</head>
+
+<body>
+  This is a test for HttpRequestTrain & HttpResponseTrain. <br>
+</body>
+<form name="f1" id="f1" action="HttpRequestTrain" method="GET">
+  <input type="submit" value="获取所有请求信息">
+</form>
+
+<form name="f1" id="f1" action="HttpResponseTrain" method="GET">
+  <input type="submit" value="response设定">
+  <input type="text" name="ContentType" value="new ContentType">
+  <input type="text" name="CharacterEncoding" value="new CharacterEncoding">
+  <input type="text" name="Header1" value="add your self-defined Header 1">
+  <input type="text" name="Header2" value="add your self-defined Header 2">
+  <input type="text" name="Redirect" value="index.jsp">
+</form>
+
+<form name="f1" id="f1" action="HttpResponseTrain" method="post">
+   <input type="submit" value="页面跳转">等待
+   <input type="text" name="waiting" value="3"> 秒后跳转到
+   <input type="text" name="url" value="www.baidu.com">
+</form>
+
+</html>
