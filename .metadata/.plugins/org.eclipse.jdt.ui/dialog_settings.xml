@@ -28,7 +28,7 @@
 		<item value="true" key="create_doget"/>
 		<item value="true" key="create_doinitdestroy"/>
 		<item value="true" key="create_main"/>
-		<item value="true" key="create_dopost"/>
+		<item value="false" key="create_dopost"/>
 		<item value="true" key="create_unimplemented"/>
 	</section>
 	<section name="completion_proposal_size">

@@ -5,11 +5,13 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 public class SharedServlet extends HttpServlet {
 	
 	//String id;
 	//String name;
+	String ServletContextObject;
 
 	/**
 		 * Constructor of the object.
@@ -40,12 +42,33 @@ public class SharedServlet extends HttpServlet {
 
 		response.setContentType("text/html;charset=GBK");
 		PrintWriter out = response.getWriter();
-		//this.getServletContext().setAttribute("id", "129");
 		String context_id = this.getServletContext().getInitParameter("id");
 		String context_name = this.getServletContext().getInitParameter("name");
 		out.println("<h1>&emsp;"+"id:"+"&emsp;&emsp;"+context_id+"</h1>");
 		out.println("<br>");
 		out.println("<h1>name:"+"&emsp;"+context_name+"</h1>");
+		
+		
+		this.getServletContext().setAttribute("ServletContextObject", "130");
+		out.println("<br>");
+		out.println("<h1>ServletContextObject:"+"&emsp;"+(String)this.getServletContext().getAttribute("ServletContextObject")+"</h1>");
+		this.getServletContext().removeAttribute("ServletContextObject");
+		//out.println("<h1>ServletContextObject:"+"&emsp;"+(String)this.getServletContext().getAttribute("ServletContextObject")+"</h1>");
+		
+		HttpSession session = request.getSession();
+		session.setAttribute("HttpSessionObject", "131");
+		out.println("<br>");
+		out.println("<h1>HttpSessionObject:"+"&emsp;"+(String)session.getAttribute("HttpSessionObject")+"</h1>");
+		session.removeAttribute("HttpSessionObject");
+		//out.println("<h1>HttpSessionObject:"+"&emsp;"+(String)session.getAttribute("HttpSessionObject")+"</h1>");
+		
+		request.setAttribute("HttpServletRequestObject", "132");
+		out.println("<br>");
+		out.println("<h1>HttpServletRequestObject:"+"&emsp;"+(String)request.getAttribute("HttpServletRequestObject")+"</h1>");
+		request.removeAttribute("HttpServletRequestObject");
+		//out.println("<h1>HttpServletRequestObject:"+"&emsp;"+(String)request.getAttribute("HttpServletRequestObject")+"</h1>");
+		
+		
 		out.flush();
 		out.close();
 	}
