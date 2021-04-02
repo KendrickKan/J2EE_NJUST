@@ -45,25 +45,26 @@ public class SharedServlet extends HttpServlet {
 		String context_id = this.getServletContext().getInitParameter("id");
 		String context_name = this.getServletContext().getInitParameter("name");
 		out.println("<h1>&emsp;"+"id:"+"&emsp;&emsp;"+context_id+"</h1>");
-		out.println("<br>");
+		//out.println("<br>");
 		out.println("<h1>name:"+"&emsp;"+context_name+"</h1>");
 		
 		
 		this.getServletContext().setAttribute("ServletContextObject", "130");
-		out.println("<br>");
+		//out.println("<br>");
 		out.println("<h1>ServletContextObject:"+"&emsp;"+(String)this.getServletContext().getAttribute("ServletContextObject")+"</h1>");
 		this.getServletContext().removeAttribute("ServletContextObject");
 		//out.println("<h1>ServletContextObject:"+"&emsp;"+(String)this.getServletContext().getAttribute("ServletContextObject")+"</h1>");
 		
 		HttpSession session = request.getSession();
 		session.setAttribute("HttpSessionObject", "131");
-		out.println("<br>");
+		//out.println("<br>");
 		out.println("<h1>HttpSessionObject:"+"&emsp;"+(String)session.getAttribute("HttpSessionObject")+"</h1>");
 		session.removeAttribute("HttpSessionObject");
 		//out.println("<h1>HttpSessionObject:"+"&emsp;"+(String)session.getAttribute("HttpSessionObject")+"</h1>");
+		session.invalidate();//�رջỰ
 		
 		request.setAttribute("HttpServletRequestObject", "132");
-		out.println("<br>");
+		//out.println("<br>");
 		out.println("<h1>HttpServletRequestObject:"+"&emsp;"+(String)request.getAttribute("HttpServletRequestObject")+"</h1>");
 		request.removeAttribute("HttpServletRequestObject");
 		//out.println("<h1>HttpServletRequestObject:"+"&emsp;"+(String)request.getAttribute("HttpServletRequestObject")+"</h1>");

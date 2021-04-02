@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MyHtml.html</title>
+	
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=GBK">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+    <table width="600" bordercolor="black" border="1px" cellspacing="0px" style="border-collapse:collapse">
+    	<tr>
+            <td>容器对象</td><td>生命周期及作用范围</td>
+        </tr>
+        <tr>
+            <td>ServletContext</td><td>生命周期为从服务器开启到服务器关闭，且所有servlet资源都可以访问</td>
+        </tr>
+        <tr>
+            <td>HttpSession</td><td>生命周期为客户浏览器与服务器的一次会话，作用范围为会话期间访问的所有servlet</td>
+        </tr>
+        <tr>
+            <td>HttpServletRequest</td><td>生命周期为用户发起的一次请求，作用范围为该请求经过的servlet等资源</td>
+        </tr>
+    </table>
+  </body>
+</html>
