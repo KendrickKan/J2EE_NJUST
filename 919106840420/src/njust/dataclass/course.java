@@ -8,8 +8,8 @@ public class course {
 	private String title;
 	private String userid;
 	private String name;
-	private Date newdate;
-	private Time newtime;
+	private String newdate;
+	private String newtime;
 	public void setId(int kid){
 		this.id = kid;
 	}
@@ -34,16 +34,16 @@ public class course {
 	public String getName(){
 		return this.name;
 	}
-	public void setNewdate(Date da){
+	public void setNewdate(String da){
 		this.newdate = da;
 	}
-	public Date getNewdate(){
+	public String getNewdate(){
 		return this.newdate; 
 	}
-	public void setNewtime(Time ti){
+	public void setNewtime(String ti){
 		this.newtime = ti;
 	}
-	public Time getNewtime(){
+	public String getNewtime(){
 		return this.newtime;
 	}
 }

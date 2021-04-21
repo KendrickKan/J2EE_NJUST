@@ -41,10 +41,10 @@
 		<item value="false" key="create_servletinfo"/>
 		<item value="false" key="create_dodelete"/>
 		<item value="true" key="create_constructor"/>
-		<item value="true" key="create_doget"/>
+		<item value="false" key="create_doget"/>
 		<item value="true" key="create_doinitdestroy"/>
-		<item value="true" key="create_main"/>
-		<item value="false" key="create_dopost"/>
+		<item value="false" key="create_main"/>
+		<item value="true" key="create_dopost"/>
 		<item value="true" key="create_unimplemented"/>
 	</section>
 	<section name="completion_proposal_size">

@@ -2675,3 +2675,844 @@ java.net.SocketException: Unexpected end of file from server
 
 !ENTRY org.eclipse.core.net 1 0 2021-04-21 21:02:52.421
 !MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+!SESSION 2021-04-21 22:35:51.085 -----------------------------------------------
+eclipse.buildId=15.0.1.CI-006
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-04-21 22:35:55.913
+!MESSAGE Project facet grails.app has not been defined. It is used in plugin com.vmware.vfabric.ide.eclipse.tcserver.core.
+
+!ENTRY org.eclipse.jface 2 0 2021-04-21 22:35:59.199
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-04-21 22:35:59.199
+!MESSAGE A conflict occurred for CTRL+SHIFT+Z:
+Binding(CTRL+SHIFT+Z,
+	ParameterizedCommand(Command(org.eclipse.angularjs.ui.navigate.open.angular.element,Open Angular Element,
+		Opens an Angular Element in a JavaScript editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1aef48f0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+Z,
+	ParameterizedCommand(Command(org.skyway.core.ui.generate,Generate,
+		Generate with Skyway,
+		Category(org.skyway.core.ui.category.views,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ed16651,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-04-21 22:35:59.199
+!MESSAGE A conflict occurred for CTRL+SHIFT+V:
+Binding(CTRL+SHIFT+V,
+	ParameterizedCommand(Command(net.jeeeyul.pdetools.clipboard.pasteHistory,Paste Content in History,
+		,
+		Category(net.jeeeyul.pdetools.category,PDE Tools,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b34721a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+V,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.command.OpenFromClipboard,Open from Clipboard,
+		Opens a Java element or a Java stack trace from clipboard,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2673ba1f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+V,
+	ParameterizedCommand(Command(org.skyway.core.ui.validate,Validate,
+		Run Skyway Validation,
+		Category(org.skyway.core.ui.category.views,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@463bdee9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:06.171
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:06.172
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.jface 2 0 2021-04-21 22:36:07.444
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-04-21 22:36:07.444
+!MESSAGE A conflict occurred for ALT+CTRL+/:
+Binding(ALT+CTRL+/,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.toggle_comment,Toggle Comment,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1eb4bd92,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+CTRL+/,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.hippieCompletion,Word Completion,
+		Context insensitive completion,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@13434a33,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,zh,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-04-21 22:36:08.489
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\21'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.649
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.649
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.649
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.650
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.650
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.651
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.651
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.651
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.654
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.655
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.655
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.655
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.656
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.656
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.656
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.656
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.657
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.657
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.657
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.657
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.658
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.658
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.658
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:09.658
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.382
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.382
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.382
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.382
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.383
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.383
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.384
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.384
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.386
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.386
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.386
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.387
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.388
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.388
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.388
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.389
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.389
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.389
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.390
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.390
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.391
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.391
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.391
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:36:10.392
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2021-04-21 22:36:10.545
+!MESSAGE Removing part descriptor with the 'com.genuitec.eclipse.modeling.ui.OverviewView' id and the 'JSF Flow Overview' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.osgi 2 0 2021-04-21 22:36:13.502
+!MESSAGE While loading class "com.genuitec.eclipse.sqlexplorer.core.SQLExplorerPlugin$2$1", thread "Thread[Worker-8,5,main]" timed out waiting (5009ms) for thread "Thread[Worker-11,5,main]" to finish starting bundle "com.genuitec.eclipse.sqlexplorer_13.0.0.me201612291204 [134]". To avoid deadlock, thread "Thread[Worker-8,5,main]" is proceeding but "com.genuitec.eclipse.sqlexplorer.core.SQLExplorerPlugin$2$1" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="13.0.0.me201612291204"; osgi.identity="com.genuitec.eclipse.sqlexplorer"; singleton:="true" [id=134] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at com.genuitec.eclipse.sqlexplorer.core.SQLExplorerPlugin$2.run(SQLExplorerPlugin.java:290)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	... 13 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at com.genuitec.eclipse.sqlexplorer.core.SQLExplorerPlugin$2.run(SQLExplorerPlugin.java:290)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:37:06.326
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 22:37:06.326
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.037
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.039
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.041
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.043
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.044
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.045
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.046
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.047
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.047
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.048
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.049
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.050
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.051
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.051
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.052
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.052
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.053
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.054
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.055
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.273
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:11.274
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:13.031
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:13.033
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.genuitec.eclipse.dashboard.common 4 0 2021-04-21 22:40:13.035
+!MESSAGE Unexpected end of file from server
+!STACK 0
+java.net.SocketException: Unexpected end of file from server
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:792)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:789)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:647)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at com.genuitec.eclipse.dashboard.templates.ImageDownloadRunnable.run(ImageDownloadRunnable.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.jface.text 2 0 2021-04-21 22:40:53.536
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2021-04-21 22:40:53.537
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 23:07:06.374
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 23:07:06.375
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-04-21 23:09:02.367
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for iiopnameURLContextFactory [in iiopnameURLContextFactory.class [in com.sun.jndi.url.iiopname [in D:\MyEclipse 2017 CI\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v112\jre\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:81)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:999)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:538)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:602)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-04-21 23:09:02.369
+!MESSAGE Unknown javadoc format for iiopnameURLContextFactory [in iiopnameURLContextFactory.class [in com.sun.jndi.url.iiopname [in D:\MyEclipse 2017 CI\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v112\jre\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-04-21 23:10:01.030
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for iiopnameURLContextFactory [in iiopnameURLContextFactory.class [in com.sun.jndi.url.iiopname [in D:\MyEclipse 2017 CI\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v112\jre\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:81)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:999)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:538)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:602)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-04-21 23:10:01.030
+!MESSAGE Unknown javadoc format for iiopnameURLContextFactory [in iiopnameURLContextFactory.class [in com.sun.jndi.url.iiopname [in D:\MyEclipse 2017 CI\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v112\jre\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-04-21 23:21:40.469
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for launcher [in launcher.class [in sun.launcher.resources [in D:\MyEclipse 2017 CI\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v112\jre\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:81)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:999)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:538)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:602)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-04-21 23:21:40.470
+!MESSAGE Unknown javadoc format for launcher [in launcher.class [in sun.launcher.resources [in D:\MyEclipse 2017 CI\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v112\jre\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-04-21 23:21:40.759
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for logging [in logging.class [in sun.util.logging.resources [in D:\MyEclipse 2017 CI\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v112\jre\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:81)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:999)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:538)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:602)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-04-21 23:21:40.759
+!MESSAGE Unknown javadoc format for logging [in logging.class [in sun.util.logging.resources [in D:\MyEclipse 2017 CI\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v112\jre\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-04-21 23:23:41.679
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for launcher [in launcher.class [in sun.launcher.resources [in D:\MyEclipse 2017 CI\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v112\jre\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:81)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:999)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:538)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:602)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-04-21 23:23:41.679
+!MESSAGE Unknown javadoc format for launcher [in launcher.class [in sun.launcher.resources [in D:\MyEclipse 2017 CI\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v112\jre\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-04-21 23:23:43.944
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for logging [in logging.class [in sun.util.logging.resources [in D:\MyEclipse 2017 CI\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v112\jre\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:81)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:999)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:538)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:602)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-04-21 23:23:43.944
+!MESSAGE Unknown javadoc format for logging [in logging.class [in sun.util.logging.resources [in D:\MyEclipse 2017 CI\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v112\jre\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-04-21 23:23:47.408
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for LocaleData [in LocaleData.class [in sun.util.resources [in D:\MyEclipse 2017 CI\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v112\jre\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:81)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:999)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:538)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:602)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-04-21 23:23:47.408
+!MESSAGE Unknown javadoc format for LocaleData [in LocaleData.class [in sun.util.resources [in D:\MyEclipse 2017 CI\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v112\jre\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-04-21 23:28:13.563
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for launcher [in launcher.class [in sun.launcher.resources [in D:\MyEclipse 2017 CI\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v112\jre\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:81)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:999)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:538)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:60)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:602)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:113)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2021-04-21 23:28:13.563
+!MESSAGE Unknown javadoc format for launcher [in launcher.class [in sun.launcher.resources [in D:\MyEclipse 2017 CI\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v112\jre\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jface.text 2 0 2021-04-21 23:30:37.018
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2021-04-21 23:30:37.018
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 23:32:34.505
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2021-04-21 23:32:34.506
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
