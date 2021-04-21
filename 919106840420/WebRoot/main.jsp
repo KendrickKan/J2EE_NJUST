@@ -16,6 +16,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<meta http-equiv="expires" content="0">    
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 	<meta http-equiv="description" content="This is my page">
+	<meta http-equiv="refresh" content="5,manageCourse.jsp">
 	<!--
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	-->
@@ -23,6 +24,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    This is my JSP page. <br>
+    <h1>This is main JSP page.</h1>
+    <h1>这意味着你登录成功</h1>
+    <h1>你将在五秒钟后自动跳转到manageCourse页面</h1>
   </body>
 </html>

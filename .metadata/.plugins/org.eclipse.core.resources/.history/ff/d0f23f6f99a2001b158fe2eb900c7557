@@ -1,0 +1,13 @@
+package njust.dataclass;
+
+public class LoginService {
+	public int finishLogin(Login login){
+		LoginDAO logdao = new LoginDAO();
+		Login testLogin = logdao.getLogin(login.getUserid());
+		if(testLogin.getPassword() == login.getPassword())
+		{
+			return 1;
+		}
+		else return false;
+	}
+}

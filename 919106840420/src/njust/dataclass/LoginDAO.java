@@ -35,6 +35,7 @@ public class LoginDAO {
 			     }
 			   }catch(SQLException e){
 				   e.printStackTrace();
+				   return null;
 			   }catch(Exception e){
 				   e.printStackTrace();
 			   }
@@ -65,15 +66,15 @@ public class LoginDAO {
 			   return false;
 		   }	
 	}
-	public static void main(String[] args) {
+//	public static void main(String[] args) {
 //		LoginDAO testDao = new LoginDAO();
-//		//testDao.getLogin("919106840420");
-//		Login testLogin = new Login();
-//		testLogin.setName("阚东");
-//		testLogin.setUserid("919106840420");
-//		testLogin.setPassword("123456");
-//		testLogin.setAcademy("计算机科学与工程学院");
-//		testLogin.setDepartment("计算机科学与技术");
-//		System.out.println(testDao.addLogin(testLogin));
-	}
+//		System.out.println(testDao.getLogin("919106840421"));
+////		Login testLogin = new Login();
+////		testLogin.setName("阚东");
+////		testLogin.setUserid("919106840420");
+////		testLogin.setPassword("123456");
+////		testLogin.setAcademy("计算机科学与工程学院");
+////		testLogin.setDepartment("计算机科学与技术");
+////		System.out.println(testDao.addLogin(testLogin));
+//	}
 }

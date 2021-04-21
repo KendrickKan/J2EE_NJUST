@@ -8,8 +8,10 @@
 <fullyQualifiedTypeName name="njust.dataclass.DataJDBC"/>
 <fullyQualifiedTypeName name="njust.dataclass.SimpleJDBCUtils"/>
 <fullyQualifiedTypeName name="org.eclipse.jdt.internal.compiler.batch.Main"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="njust.controller.LoginController"/>
 <fullyQualifiedTypeName name="njust.dataclass.LoginDAO"/>
+<fullyQualifiedTypeName name="njust.dataclass.LoginService"/>
 <fullyQualifiedTypeName name="njust.dataclass.Login"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

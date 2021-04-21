@@ -8,6 +8,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import njust.dataclass.Login;
+import njust.dataclass.LoginService;
+
 public class LoginController extends HttpServlet {
 
 	/**
@@ -38,7 +41,30 @@ public class LoginController extends HttpServlet {
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 		response.setContentType("text/html");
-		PrintWriter out = response.getWriter();
+		request.setCharacterEncoding("utf-8");	
+		String controllerUserid = request.getParameter("user");
+		String controllerPassword = request.getParameter("password");
+		Login login = new Login();
+		login.setUserid(controllerUserid);
+		login.setPassword(controllerPassword);
+		
+		LoginService logser = new LoginService();
+		int loginerrno = logser.finishLogin(login);
+		request.getSession().setAttribute("loginerrno", loginerrno);
+		if(logser.finishLogin(login)==200)
+		{
+			request.getRequestDispatcher("main.jsp").forward(request, response);
+		}
+		else if(logser.finishLogin(login)==201)
+		{
+			request.getRequestDispatcher("loginFailure.jsp").forward(request, response);
+		}
+		else
+		{
+			request.getRequestDispatcher("loginFailure.jsp").forward(request, response);
+		}
+		
+//		PrintWriter out = response.getWriter();
 //		out.println("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">");
 //		out.println("<HTML>");
 //		out.println("  <HEAD><TITLE>A Servlet</TITLE></HEAD>");
@@ -46,13 +72,12 @@ public class LoginController extends HttpServlet {
 //		out.print("    This is ");
 //		out.print(this.getClass());
 //		out.println(", using the POST method");
-//		String str = request.getParameter("user");
-//		out.println(request.getParameter("user"));
-//		out.println(str);
+//		out.println(controllerUserid);
+//		out.println(controllerPassword);
 //		out.println("  </BODY>");
 //		out.println("</HTML>");
-		out.flush();
-		out.close();
+//		out.flush();
+//		out.close();
 	}
 
 	/**
