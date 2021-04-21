@@ -51,6 +51,7 @@ public class LoginController extends HttpServlet {
 		LoginService logser = new LoginService();
 		int loginerrno = logser.finishLogin(login);
 		request.getSession().setAttribute("loginerrno", loginerrno);
+		request.getSession().setAttribute("controllerUserid", controllerUserid);
 		if(logser.finishLogin(login)==200)
 		{
 			request.getRequestDispatcher("main.jsp").forward(request, response);

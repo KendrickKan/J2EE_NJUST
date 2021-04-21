@@ -12,12 +12,12 @@
 <fullyQualifiedTypeName name="njust.dataclass.LoginDAO"/>
 <fullyQualifiedTypeName name="njust.dataclass.LoginService"/>
 <fullyQualifiedTypeName name="njust.dataclass.Login"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="njust.dataclass.courseDAO"/>
-<fullyQualifiedTypeName name="njust.dataclass.course"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.sql.Date"/>
 <fullyQualifiedTypeName name="java.util.Locale"/>
 <fullyQualifiedTypeName name="sun.util.resources.LocaleData"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="njust.dataclass.course"/>
 </qualifiedTypeNameHistroy>

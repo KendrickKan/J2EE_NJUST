@@ -12,8 +12,8 @@ import sun.util.resources.LocaleData;
 import java.util.*;
 
 public class courseDAO {
-	List<course> courses;
 	
+	List<course> courses ;
 	
 	public course getCourse(int id) {
 		   Connection conn =null;
@@ -48,6 +48,7 @@ public class courseDAO {
 		Connection conn =null;
 		Statement stmt = null;
 		ResultSet rs = null;
+		//List<course> courses ;
 		course tempCourse = null;
 		String sql = "select * from course where userid="+kid;
 		   try{
@@ -140,17 +141,33 @@ public class courseDAO {
 				   return false;
 			   }
 	}
-//	public static void main(String args[]){
-//		courseDAO testCourseDAO = new courseDAO();
-//		course testCourse = new course();
-////		testCourse.setId(3);
-////		testCourse.setName("kkk");
-////		testCourse.setNewdate("2021-12-21");
-////		testCourse.setNewtime("15:13:01");
-////		testCourse.setTitle("J2EE_Six");
-////		testCourse.setUserid("919106840420");
-////		testCourseDAO.addCourse(testCourse);
-////		testCourseDAO.deleteCourse(testCourse);
+	public static void main(String args[]){
+		courseDAO testCourseDAO = new courseDAO();
+		List<course> curList = testCourseDAO.getAllCourse("919106840420");
+		course cou = null;
+		if(!curList.isEmpty()){
+    		int size = curList.size();
+    		int index =0; //starting from 0
+    		 while (index < size){	      	    
+			    cou =(course) curList.get(index);
+		     	if(cou != null){
+		     		System.out.println(cou.getId());
+		     		System.out.println(cou.getTitle());
+		     		System.out.println(cou.getName());
+		     		System.out.println(cou.getNewdate());
+		     		System.out.println(cou.getNewtime());
+			    }
+			    index = index +1;
+		     }
+		}
+//		testCourse.setId(3);
+//		testCourse.setName("kkk");
+//		testCourse.setNewdate("2021-12-21");
+//		testCourse.setNewtime("15:13:01");
+//		testCourse.setTitle("J2EE_Six");
+//		testCourse.setUserid("919106840420");
+//		testCourseDAO.addCourse(testCourse);
+//		testCourseDAO.deleteCourse(testCourse);
 //		testCourseDAO.deleteCourse(3);
-//	}
+	}
 }

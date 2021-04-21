@@ -24,6 +24,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
+  	<%
+  		String mainuserid = (String)request.getSession().getAttribute("controllerUserid");
+  		request.getSession().setAttribute("mainuserid", mainuserid);
+  	%>
     <h1>This is main JSP page.</h1>
     <h1>这意味着你登录成功</h1>
     <h1>你将在五秒钟后自动跳转到manageCourse页面</h1>
