@@ -1,0 +1,27 @@
+package njust.dataclass;
+
+import java.sql.*;
+import java.util.Set;
+
+public class course {
+
+	private int id;
+	private String title;
+	private String userid;
+	private String name;
+	private Date newdate;
+	private Time newtime;
+	public void setId(int kid){
+		this.id = kid;
+	}
+	public int getId(){
+		return this.id;
+	}
+	public void setTitle(String ktitle){
+		this.title = ktitle;
+	}
+	public String getTitle(){
+		return this.title;
+	}
+	
+}

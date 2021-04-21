@@ -27,6 +27,8 @@ public class LoginDAO {
 			    	 login.setUserid(rs.getString(1));
 			    	 login.setName(rs.getString(2));
 			    	 login.setPassword(rs.getString(3));
+			    	 login.setAcademy(rs.getString(4));
+			    	 login.setDepartment(rs.getString(5));
 //			    	 System.out.println(rs.getString(1));
 //			    	 System.out.println(rs.getString(2));
 //			    	 System.out.println(rs.getString(3));
@@ -42,9 +44,8 @@ public class LoginDAO {
 		   Connection conn =null;
 		   Statement stmt = null;
 		   int rows = -1;
-		   String sql = "insert into user values('"+log.getUserid() + "','"+log.getName()
-				                        +"','"+log.getPassword() +"');";
-		   System.out.println(sql);
+		   String sql = "insert into user values('"+log.getUserid() + "','" + log.getName() +"','"+log.getPassword() + "','" + log.getAcademy() + "','" + log.getDepartment() + "');";
+		   //System.out.println(sql);
 		   try{
 		     conn = SimpleJDBCUtils.getConnection();
 		     stmt = conn.createStatement();
@@ -64,13 +65,15 @@ public class LoginDAO {
 			   return false;
 		   }	
 	}
-//	public static void main(String[] args) {
+	public static void main(String[] args) {
 //		LoginDAO testDao = new LoginDAO();
-//		testDao.getLogin("919106840420");
+//		//testDao.getLogin("919106840420");
 //		Login testLogin = new Login();
-//		testLogin.setName("吕辉");
-//		testLogin.setUserid("919106840425");
+//		testLogin.setName("阚东");
+//		testLogin.setUserid("919106840420");
 //		testLogin.setPassword("123456");
+//		testLogin.setAcademy("计算机科学与工程学院");
+//		testLogin.setDepartment("计算机科学与技术");
 //		System.out.println(testDao.addLogin(testLogin));
-//	}
+	}
 }
