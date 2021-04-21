@@ -1,0 +1,22 @@
+package njust.dataclass;
+
+import java.sql.*;
+
+import javax.sql.*;
+
+import java.util.*;
+
+
+public class LoginDAO {
+
+	public Login getLogin(String id) {
+		   Connection conn =null;
+		   Statement stmt = null;
+		   ResultSet rs = null;
+		   Login login = null;
+		   
+		   String sql = "select * from user where id="+id;
+		   
+		   return login;
+	}
+}

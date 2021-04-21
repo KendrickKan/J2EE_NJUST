@@ -1,0 +1,44 @@
+package njust.dataclass;
+
+import java.sql.*;
+
+import javax.sql.*;
+
+import org.eclipse.jdt.internal.compiler.batch.Main;
+
+import java.util.*;
+
+
+public class LoginDAO {
+
+	public Login getLogin(String id) {
+		   Connection conn =null;
+		   Statement stmt = null;
+		   ResultSet rs = null;
+		   Login login = null;
+		   
+		   String sql = "select * from user where userid="+id;
+		   try{
+			     conn = SimpleJDBCUtils.getConnection();
+			     stmt = conn.createStatement();
+			     rs = stmt.executeQuery(sql);
+			     while(rs.next()){
+			    	 login.setUserid(rs.getString(1));
+			    	 login.setName(rs.getString(2));
+			    	 login.setPassword(rs.getString(3));
+//			    	 System.out.println(rs.getString(1));
+//			    	 System.out.println(rs.getString(2));
+//			    	 System.out.println(rs.getString(3));
+			     }
+			   }catch(SQLException e){
+				   e.printStackTrace();
+			   }catch(Exception e){
+				   e.printStackTrace();
+			   }
+		   return login;
+	}
+	public static void main(String[] args) {
+		LoginDAO testDao = new LoginDAO();
+		testDao.getLogin("919106840420");
+	}
+}

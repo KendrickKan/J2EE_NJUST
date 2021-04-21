@@ -1,0 +1,42 @@
+package njust.dataclass;
+
+import java.sql.*;
+
+import javax.sql.*;
+
+import njust.data.Book;
+import njust.utils.SimpleJDBCUtils;
+
+import java.util.*;
+
+
+public class LoginDAO {
+
+	public Login getLogin(String id) {
+		   Connection conn =null;
+		   Statement stmt = null;
+		   ResultSet rs = null;
+		   Login login = null;
+		   
+		   String sql = "select * from user where userid="+id;
+		   try{
+			     conn = SimpleJDBCUtils.getConnection();
+			     stmt = conn.createStatement();
+			     rs = stmt.executeQuery(sql);
+			     while(rs.next()){
+			    	 book = new Book();
+			    	 book.setBookId(rs.getInt(1));
+			    	 book.setAuthor(rs.getString(2));
+			    	 book.settTitle(rs.getString(3));
+			    	 book.setQuantity(rs.getInt(4));
+			    	 books.add(book);		    	 
+			     }		     
+			   }catch(SQLException e){
+				   e.printStackTrace();
+			   }catch(Exception e){
+				   e.printStackTrace();
+			   }
+		   
+		   return login;
+	}
+}

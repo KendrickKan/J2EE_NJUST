@@ -1,0 +1,10 @@
+package njust.dataclass;
+
+import java.sql.*;
+
+import javax.sql.*;
+import javax.naming.*;
+
+public class DataJDBC {
+
+}

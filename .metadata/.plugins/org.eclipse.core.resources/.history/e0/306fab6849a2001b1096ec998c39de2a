@@ -1,0 +1,15 @@
+package njust.dataclass;
+
+public class Login {
+	private String userid;
+	private String name;
+	private String password;
+	public Login(){
+		
+	}
+	public Login(String id){
+		userid = id;
+		name = "";
+		password = "";
+	}
+}
