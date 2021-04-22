@@ -31,6 +31,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     	你的学号:
     <%
     	String userid = (String)request.getSession().getAttribute("mainuserid");
+    	request.getSession().setAttribute("userid", userid);
     	out.println(userid+"<br>");
     	out.println("你的姓名:");
     	LoginDAO logd = new LoginDAO();
@@ -77,7 +78,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		     	if(cou != null){
 		     	%>
 		     	  <tr>
-        			<td style="text-align:center"><input type="checkbox" name="xuhao" value="1"style="text-align:center"><%=cou.getId()%><br></td>
+        			<td style="text-align:center"><input type="checkbox" name="xuhao" value="<%=cou.getId() %>"style="text-align:center"><%=cou.getId()%><br></td>
         			<td style="text-align:center"><%=cou.getTitle() %></td>
         			<td style="text-align:center"><%=cou.getName() %></td>
         			<td style="text-align:center"><%=cou.getNewdate() %></td>
@@ -89,6 +90,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		     }
     	}
      %>
+     <form method="post" action="addCourse.jsp" name="form1">
+     <input type="submit" value="新增">
+     </form>
+     <form method="post" action="CourseController" name="form1">
+     <input type="submit" value="删除">
+     </form>
     
   </body>
 </html>

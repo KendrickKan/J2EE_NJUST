@@ -147,8 +147,32 @@ public class courseDAO {
 				   return false;
 			   }
 	}
+	public int getMaxId(){
+		   Connection conn =null;
+		   Statement stmt = null;
+		   ResultSet rs = null;
+		   int rows = -1;
+		   String sql = "select max(id) from course";
+		   int tempmaxid=0;
+		   try{
+			     conn = SimpleJDBCUtils.getConnection();
+			     stmt = conn.createStatement();
+			     rs = stmt.executeQuery(sql);
+			     while(rs.next()){
+			    	 tempmaxid = rs.getInt(1);
+			     }
+			     
+			   }catch(SQLException e){
+				   e.printStackTrace();
+			   }catch(Exception e){
+				   e.printStackTrace();
+			   }
+			   SimpleJDBCUtils.release(conn, stmt, rs);
+		return tempmaxid;
+	}
 //	public static void main(String args[]){
 //		courseDAO testCourseDAO = new courseDAO();
+//		System.out.println(testCourseDAO.getMaxId());
 //		List<course> curList = testCourseDAO.getAllCourse("919106840420");
 //		course cou = null;
 //		if(!curList.isEmpty()){

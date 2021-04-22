@@ -1,4 +1,8 @@
-<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
+<%@page import="njust.dataclass.course"%>
+<%@page import="njust.dataclass.courseDAO"%>
+<%@page import="njust.dataclass.LoginDAO"%>
+<%@page import="njust.dataclass.Login"%>
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -23,6 +27,34 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    This is my JSP page. <br>
+    <h1>This is addCourse JSP page. </h1>
+    <form method="post" action="CourseController" name="form1">
+    	序号(此项为自动生成):
+    	<% 
+    		int errno = 200;
+    		request.getSession().setAttribute("errno", errno);
+    		courseDAO testCourseDAO = new courseDAO();
+    		int nowid = testCourseDAO.getMaxId()+1;
+    		out.println(nowid+"<br>");
+    		course testcourse = new course();
+    		testcourse.setId(nowid);
+    	%>
+    	作业标题:<input type="text" name="title" style="width:200px; height:20px;text-align:center;"><br>
+    	学号(此项为自动生成):
+    	<%
+    		String adduserid = (String)request.getSession().getAttribute("userid");
+    		out.println(adduserid+"<br>");
+    		testcourse.setUserid(adduserid);
+    		LoginDAO logd = new LoginDAO();
+    		Login log  = logd.getLogin(adduserid);
+    		String addname = log.getName();
+    		testcourse.setName(addname);
+    		request.getSession().setAttribute("testcourse", testcourse);
+    	%>
+    	姓名(此项为自动生成):<%=addname %><br>
+    	日期:<input type="text" name="adddate" style="width:200px; height:20px;text-align:center;"><br>
+    	时间:<input type="text" name="addtime" style="width:200px; height:20px;text-align:center;"><br>
+    	<input type="submit" value="新增">
+    </form>
   </body>
 </html>
