@@ -13,7 +13,7 @@ import java.util.*;
 
 public class courseDAO {
 	
-	List<course> courses ;
+	//List<course> courses ;
 	
 	public course getCourse(int id) {
 		   Connection conn =null;
@@ -48,7 +48,7 @@ public class courseDAO {
 		Connection conn =null;
 		Statement stmt = null;
 		ResultSet rs = null;
-		//List<course> courses ;
+		List<course> courses = new ArrayList<>();
 		course tempCourse = null;
 		String sql = "select * from course where userid="+kid;
 		   try{
@@ -58,11 +58,17 @@ public class courseDAO {
 			     while(rs.next()){
 			    	 tempCourse = new course();
 			    	 tempCourse.setId(rs.getInt(1));
+			    	 //System.out.println(tempCourse.getId());
 			    	 tempCourse.setTitle(rs.getString(2));
+			    	 //System.out.println(tempCourse.getTitle());
 			    	 tempCourse.setUserid(rs.getString(3));
+			    	 //System.out.println(tempCourse.getUserid());
 			    	 tempCourse.setName(rs.getString(4));
+			    	 //System.out.println(tempCourse.getName());
 			    	 tempCourse.setNewdate(rs.getString(5));
+			    	 //System.out.println(tempCourse.getNewdate());
 			    	 tempCourse.setNewtime(rs.getString(6));
+			    	 //System.out.println(tempCourse.getNewtime());
 			    	 courses.add(tempCourse);		    	 
 			     }
 			     
@@ -141,25 +147,25 @@ public class courseDAO {
 				   return false;
 			   }
 	}
-	public static void main(String args[]){
-		courseDAO testCourseDAO = new courseDAO();
-		List<course> curList = testCourseDAO.getAllCourse("919106840420");
-		course cou = null;
-		if(!curList.isEmpty()){
-    		int size = curList.size();
-    		int index =0; //starting from 0
-    		 while (index < size){	      	    
-			    cou =(course) curList.get(index);
-		     	if(cou != null){
-		     		System.out.println(cou.getId());
-		     		System.out.println(cou.getTitle());
-		     		System.out.println(cou.getName());
-		     		System.out.println(cou.getNewdate());
-		     		System.out.println(cou.getNewtime());
-			    }
-			    index = index +1;
-		     }
-		}
+//	public static void main(String args[]){
+//		courseDAO testCourseDAO = new courseDAO();
+//		List<course> curList = testCourseDAO.getAllCourse("919106840420");
+//		course cou = null;
+//		if(!curList.isEmpty()){
+//    		int size = curList.size();
+//    		int index =0; //starting from 0
+//    		 while (index < size){	      	    
+//			    cou =(course) curList.get(index);
+//		     	if(cou != null){
+//		     		System.out.println(cou.getId());
+//		     		System.out.println(cou.getTitle());
+//		     		System.out.println(cou.getName());
+//		     		System.out.println(cou.getNewdate());
+//		     		System.out.println(cou.getNewtime());
+//			    }
+//			    index = index +1;
+//		     }
+//		}
 //		testCourse.setId(3);
 //		testCourse.setName("kkk");
 //		testCourse.setNewdate("2021-12-21");
@@ -169,5 +175,5 @@ public class courseDAO {
 //		testCourseDAO.addCourse(testCourse);
 //		testCourseDAO.deleteCourse(testCourse);
 //		testCourseDAO.deleteCourse(3);
-	}
+//	}
 }
