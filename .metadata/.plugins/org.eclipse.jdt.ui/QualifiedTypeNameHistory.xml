@@ -22,4 +22,6 @@
 <fullyQualifiedTypeName name="njust.dataclass.courseDAO"/>
 <fullyQualifiedTypeName name="njust.dataclass.CourseService"/>
 <fullyQualifiedTypeName name="njust.dataclass.course"/>
+<fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.Out"/>
+<fullyQualifiedTypeName name="org.apache.naming.java.javaURLContextFactory"/>
 </qualifiedTypeNameHistroy>

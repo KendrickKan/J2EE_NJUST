@@ -28,6 +28,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
     <h1>This is manageCourse JSP page.</h1>
+    <h1>欢迎来到你的作业管理界面</h1>
     	你的学号:
     <%
     	String userid = (String)request.getSession().getAttribute("mainuserid");

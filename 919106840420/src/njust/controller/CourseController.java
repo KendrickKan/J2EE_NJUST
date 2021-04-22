@@ -8,6 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.jasper.tagplugins.jstl.core.Out;
+
 import njust.dataclass.courseDAO;
 import njust.dataclass.CourseService;
 import njust.dataclass.course;
@@ -41,7 +43,7 @@ public class CourseController extends HttpServlet {
 		 */
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-		response.setContentType("text/html");
+		response.setContentType("text/html;charset=utf-8");
 		request.setCharacterEncoding("utf-8");	
 		
 		if((int)request.getSession().getAttribute("errno")==200)
@@ -67,14 +69,44 @@ public class CourseController extends HttpServlet {
 			String[] ids = request.getParameterValues("xuhao");
 			if(ids != null){
 				CourseService conCourseService = new CourseService();
+				boolean isDelete=false;
 				for(int i=0;i<ids.length;i++){
+					int checkdelete = conCourseService.delCourseService(Integer.valueOf(ids[i]).intValue());
+					if(checkdelete==201)
+					{
+						isDelete = true;
+						break;
+					}
 					//System.out.println("Choose:"+ids[i]);
 					//courseDAO conCourseDAO = new courseDAO();
 					//course conCourse = conCourseDAO.getCourse(Integer.valueOf(ids[i]).intValue());
 				}
+				if(!isDelete)
+				{
+					//删除成功
+					PrintWriter out = response.getWriter();
+					out.println("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">");
+					out.println("<HTML>");
+					out.println("  <HEAD><TITLE>A Servlet</TITLE>");
+					out.println("<meta http-equiv='refresh' content='5,URL=manageCourse.jsp'>");
+					out.println("</HEAD>");
+					out.println("  <BODY>");
+					out.println("<h1>删除成功，将在五秒后返回ManageCourse页面</h1>");
+					out.println("  </BODY>");
+					out.println("</HTML>");
+					out.flush();
+					out.close();
+					//request.getRequestDispatcher("manageCourse.jsp").forward(request, response);
+				}
+				else
+				{
+					//删除失败
+					request.getRequestDispatcher("faliure.jsp").forward(request, response);
+				}
 			}
 			else{
 				//并没有选则 提示并提供超链接
+				request.getRequestDispatcher("faliure.jsp").forward(request, response);
 			}
 			//String id = request.getParameter("checbox");
 			//System.out.println(id);

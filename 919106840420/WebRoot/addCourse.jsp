@@ -39,7 +39,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     		course testcourse = new course();
     		testcourse.setId(nowid);
     	%>
-    	作业标题:<input type="text" name="title" style="width:200px; height:20px;text-align:center;"><br>
+    	作业标题:<input type="text" name="title" style="width:200px; height:22px;text-align:center;"><br>
     	学号(此项为自动生成):
     	<%
     		String adduserid = (String)request.getSession().getAttribute("userid");
@@ -52,8 +52,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     		request.getSession().setAttribute("testcourse", testcourse);
     	%>
     	姓名(此项为自动生成):<%=addname %><br>
-    	日期:<input type="text" name="adddate" style="width:200px; height:20px;text-align:center;"><br>
-    	时间:<input type="text" name="addtime" style="width:200px; height:20px;text-align:center;"><br>
+    	日期:<input type="text" name="adddate" style="width:232px; height:22px;text-align:center;"><br>
+    	时间:<input type="text" name="addtime" style="width:232px; height:22px;text-align:center;"><br>
+    	<br>
     	<input type="submit" value="新增">
     </form>
   </body>

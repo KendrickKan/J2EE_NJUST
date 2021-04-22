@@ -23,6 +23,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
+  <div style="display: block; margin: 0 auto; width: 30%; ">
+  	<h1>课程作业管理系统</h1>
+  
     <form method="post" action="LoginController" name="form1">
 			用&emsp;户:&emsp;<input type="text" name="user" style="width:200px; height:20px;text-align:center;">
 			<br><br>
@@ -34,23 +37,28 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         	 border-radius: 5px;vertical-align:middle;"></canvas>
 			<br>
 			<br>
-				<select name="academy" onChange="getDepartment();" style="width:180px;height:25px">
+				<select name="academy" onChange="getDepartment();" style="width:275px;height:27px">
 					<option value="0">请选择所在学院</option>
 					<option value="计算机科学与工程学院">计算机科学与工程学院</option>
 					<option value="电子工程与光电技术学院">电子工程与光电技术学院</option>
 				</select>
-				<select name="department" style="width:180px;height:25px">
+				<br>
+				<br>
+				<select name="department" style="width:275px;height:27px">
 					<option value="0">请选择所在专业</option>
 				</select>
 						
 			<br>
 			<br>
-			&emsp;
+			&emsp;&emsp;
 			
 			<input type="submit" value="登录">
+			&emsp;&emsp;
 			<a href="https://github.com/KendrickKan">帮助</a>
+			&emsp;&emsp;
 			<a href="https://github.com/KendrickKan">忘密</a>
 		</form>
+		</div>
   </body>
   
   <script>
@@ -95,7 +103,7 @@ function draw(show_num) {
             var txt = aCode[j];//得到随机的一个内容
             show_num[i] = txt;
             var x = 10 + i * 20;//文字在canvas上的x坐标
-            var y = 20 + Math.random() * 8;//文字在canvas上的y坐标
+            var y = 15 + Math.random() * 8;//文字在canvas上的y坐标
             context.font = "bold 23px 微软雅黑";
 
             context.translate(x, y);

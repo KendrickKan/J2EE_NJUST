@@ -1,4 +1,4 @@
-Private property of Exodus: 21620@LAPTOP-THTJILUJ
+Private property of Exodus: 21208@LAPTOP-THTJILUJ
 
 jetbrains.exodus.io.LockingManager.lock(LockingManager.java:100)
 jetbrains.exodus.io.LockingManager.lock(LockingManager.java:53)
@@ -19,8 +19,7 @@ com.genuitec.eclipse.webclipse.livepreview.deploy.InjectJSPIDsFlatFile.getAdapte
 org.eclipse.wst.web.internal.deployables.FlatComponentDeployable$ComponentModuleResource.getAdapter(FlatComponentDeployable.java:397)
 com.genuitec.eclipse.server.core.deployment.ModuleFilesDeployer.copyFile(ModuleFilesDeployer.java:159)
 com.genuitec.eclipse.server.core.deployment.ModuleFilesDeployer.saveResources(ModuleFilesDeployer.java:111)
-com.genuitec.eclipse.server.core.deployment.ModuleFilesDeployer.saveResources(ModuleFilesDeployer.java:90)
-com.genuitec.eclipse.server.core.deployment.ModuleDeployer.internalProcess(ModuleDeployer.java:71)
+com.genuitec.eclipse.server.core.deployment.ModuleDeployer.internalProcess(ModuleDeployer.java:76)
 com.genuitec.eclipse.server.core.deployment.AbstractDeploymentProcessor.processDeployment(AbstractDeploymentProcessor.java:79)
 com.genuitec.eclipse.server.core.GenuitecAppServerBehaviour.internalPublishDeployment(GenuitecAppServerBehaviour.java:234)
 org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.internalPublishDeployment(TomcatServerBehaviour.java:333)

@@ -32,9 +32,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     	}
     	else 
     	{
-    		out.println("<h1>错误原因：</h1>");
+    		out.println("<h1>错误原因：密码错误</h1>");
     	}
-    		out.println("<h1>这个页面将在五秒后跳转回登录页面</h1>");
+    		out.println("<h1>将在五秒后跳转回登录页面</h1>");
     %>
   </body>
 </html>
