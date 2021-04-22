@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -9,7 +9,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <head>
     <base href="<%=basePath%>">
     
-    <title>My JSP 'manageCourse.jsp' starting page</title>
+    <title>My JSP 'delCourse.jsp' starting page</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -23,10 +23,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    <h1>This is manageCourse JSP page.</h1>
-    	你的学号:
+    This is delCourse JSP page. <br>
+    <form method="post" action="CourseController" name="form1">
     <%
-    	out.println(request.getSession().getAttribute("mainuserid"));
-    %>
+    	    int errno = 200;
+    		request.getSession().setAttribute("errno", errno);
+     %>
+     
+     </form>
   </body>
 </html>

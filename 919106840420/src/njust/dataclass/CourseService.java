@@ -8,4 +8,13 @@ public class CourseService {
 			return 200;
 		else return 201;
 	}
+	public int delCourseService(int id)
+	{
+		courseDAO serCourseDAO = new courseDAO();
+		course serCourse = serCourseDAO.getCourse(id);
+		boolean delbool = serCourseDAO.deleteCourse(serCourse);
+		if(delbool)
+			return 200;
+		else return 201;
+	}
 }

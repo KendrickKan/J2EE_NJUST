@@ -93,7 +93,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
      <form method="post" action="addCourse.jsp" name="form1">
      <input type="submit" value="新增">
      </form>
-     <form method="post" action="CourseController" name="form1">
+     <form method="post" action="delCourse.jsp" name="form2">
      <input type="submit" value="删除">
      </form>
     

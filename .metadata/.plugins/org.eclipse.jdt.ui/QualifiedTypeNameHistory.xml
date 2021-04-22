@@ -17,9 +17,9 @@
 <fullyQualifiedTypeName name="sun.util.resources.LocaleData"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="njust.controller.CourseController"/>
-<fullyQualifiedTypeName name="njust.dataclass.course"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="njust.dataclass.courseDAO"/>
 <fullyQualifiedTypeName name="njust.dataclass.CourseService"/>
+<fullyQualifiedTypeName name="njust.dataclass.course"/>
 </qualifiedTypeNameHistroy>

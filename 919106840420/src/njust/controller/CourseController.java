@@ -63,7 +63,21 @@ public class CourseController extends HttpServlet {
 		}
 		else
 		{
-			
+
+			String[] ids = request.getParameterValues("xuhao");
+			if(ids != null){
+				CourseService conCourseService = new CourseService();
+				for(int i=0;i<ids.length;i++){
+					//System.out.println("Choose:"+ids[i]);
+					//courseDAO conCourseDAO = new courseDAO();
+					//course conCourse = conCourseDAO.getCourse(Integer.valueOf(ids[i]).intValue());
+				}
+			}
+			else{
+				//并没有选则 提示并提供超链接
+			}
+			//String id = request.getParameter("checbox");
+			//System.out.println(id);
 		}
 		
 		

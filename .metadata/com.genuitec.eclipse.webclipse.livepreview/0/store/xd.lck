@@ -1,4 +1,4 @@
-Private property of Exodus: 7032@LAPTOP-THTJILUJ
+Private property of Exodus: 21620@LAPTOP-THTJILUJ
 
 jetbrains.exodus.io.LockingManager.lock(LockingManager.java:100)
 jetbrains.exodus.io.LockingManager.lock(LockingManager.java:53)
@@ -16,9 +16,14 @@ com.genuitec.eclipse.webclipse.livepreview.common.LPMappingService.getDBFor(LPMa
 com.genuitec.eclipse.webclipse.livepreview.common.LPMappingService.loadAllDeployments(LPMappingService.java:174)
 com.genuitec.eclipse.webclipse.livepreview.common.LPMappingService.<init>(LPMappingService.java:55)
 com.genuitec.eclipse.webclipse.livepreview.common.LPMappingService.<clinit>(LPMappingService.java:45)
-com.genuitec.eclipse.webclipse.livepreview.deploy.ServerPublishListener.checkServerActive(ServerPublishListener.java:157)
-com.genuitec.eclipse.webclipse.livepreview.deploy.ServerPublishListener.publishStarted(ServerPublishListener.java:75)
-org.eclipse.wst.server.core.internal.Server.firePublishStarted(Server.java:1152)
-org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3361)
-org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:360)
+com.genuitec.eclipse.webclipse.livepreview.deploy.InjectJSPIDsFlatFile.getModificationStamp(InjectJSPIDsFlatFile.java:104)
+org.eclipse.wst.web.internal.deployables.FlatComponentDeployable$ComponentModuleResource.getModificationStamp(FlatComponentDeployable.java:387)
+org.eclipse.wst.server.core.internal.ServerPublishInfo.hasDelta(ServerPublishInfo.java:508)
+org.eclipse.wst.server.core.internal.ModulePublishInfo.hasDelta(ModulePublishInfo.java:563)
+org.eclipse.wst.server.core.internal.ServerPublishInfo.hasDelta(ServerPublishInfo.java:484)
+org.eclipse.wst.server.core.internal.Server.hasPublishedResourceDelta(Server.java:1626)
+org.eclipse.wst.server.core.internal.Server$ResourceChangeJob$1.visit(Server.java:224)
+org.eclipse.wst.server.core.internal.Server.visitModule(Server.java:3249)
+org.eclipse.wst.server.core.internal.Server.visit(Server.java:3233)
+org.eclipse.wst.server.core.internal.Server$ResourceChangeJob.run(Server.java:235)
 org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
