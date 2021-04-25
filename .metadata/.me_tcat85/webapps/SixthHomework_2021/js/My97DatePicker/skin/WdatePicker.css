@@ -1,0 +1,14 @@
+[genuitec-file-id="wc1-3"],[genuitec-lp-path="/SixthHomework_2021/WebRoot/js/My97DatePicker/skin/WdatePicker.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+.Wdate{
+	border:#999 1px solid;
+	height:20px;
+	background:#fff url(datePicker.gif) no-repeat right;
+}
+
+.WdateFmtErr{
+	font-weight:bold;
+	color:red;
+}
