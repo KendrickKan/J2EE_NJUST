@@ -1,7 +1,0 @@
-package njust.dataclass;
-
-public class LoginService {
-	public boolean finishLogin(Login login){
-		
-	}
-}

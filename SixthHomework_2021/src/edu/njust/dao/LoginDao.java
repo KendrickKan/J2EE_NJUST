@@ -19,7 +19,7 @@ public class LoginDao {
 		Connection conn =null;
 		PreparedStatement ps= null;
 		ResultSet rs = null;
-		String sql = "select name,pwd from users where name =?";
+		String sql = "select name,pwd from user where name =?";
 		   try{
 		     conn = SimpleJDBCUtils.getConnection();
 		     ps = conn.prepareStatement(sql);

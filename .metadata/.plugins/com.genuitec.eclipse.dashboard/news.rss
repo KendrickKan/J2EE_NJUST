@@ -20,6 +20,19 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>MyEclipse 2021 Sneak Peek—Awesome AF</title>
+		<link>https://www.genuitec.com/myeclipse-2021-sneak-peek/</link>
+				<pubDate>Tue, 27 Apr 2021 15:26:31 +0000</pubDate>
+		<dc:creator><![CDATA[Aaron Lara]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[MyEclipse]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=673204</guid>
+				<description><![CDATA[<p>MyEclipse 2021 is coming soon! Take a sneak peek at some of the awesome additional features (AF) coming your way.</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/myeclipse-2021-sneak-peek/">MyEclipse 2021 Sneak Peek—Awesome AF</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+									</item>
+		<item>
 		<title>CodeTogether 4.0—More Goodness for All, Especially Teams</title>
 		<link>https://www.genuitec.com/codetogether-4-0/</link>
 				<pubDate>Tue, 23 Mar 2021 18:46:01 +0000</pubDate>
@@ -208,29 +221,15 @@
 <p>The post <a rel="nofollow" href="https://www.genuitec.com/codetogether-1-1/">CodeTogether 1.1: Now with Seamless Pair Programming for Eclipse, VS Code, and IntelliJ</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
 ]]></description>
 									</item>
-		<item>
-		<title>Pair Programming from Anywhere with CodeTogether!</title>
-		<link>https://www.genuitec.com/pair-programming-codetogether/</link>
-				<pubDate>Thu, 09 Apr 2020 16:30:04 +0000</pubDate>
-		<dc:creator><![CDATA[Brian Fernandes]]></dc:creator>
-				<category><![CDATA[CodeTogether]]></category>
-		<category><![CDATA[Genuitec]]></category>
-		<category><![CDATA[In Product]]></category>
-
-		<guid isPermaLink="false">https://www.genuitec.com/?p=651821</guid>
-				<description><![CDATA[<p>We are happy to introduce CodeTogether, a great solution for pair programming from anywhere. Currently supports Eclipse, VS Code, and IntelliJ. Download and use CodeTogether now - it's free! </p>
-<p>The post <a rel="nofollow" href="https://www.genuitec.com/pair-programming-codetogether/">Pair Programming from Anywhere with CodeTogether!</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
-]]></description>
-									</item>
 	</channel>
 </rss>
 
 <!--
 Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
 
-Object Caching 3565/355 objects using disk
+Object Caching 3515/358 objects using disk
 Page Caching using disk: enhanced (SSL caching disabled) 
 Content Delivery Network via resources.cloud.genuitec.com
 
-Served from: www.genuitec.com @ 2021-04-24 23:54:19 by W3 Total Cache
+Served from: www.genuitec.com @ 2021-05-07 00:58:38 by W3 Total Cache
 -->

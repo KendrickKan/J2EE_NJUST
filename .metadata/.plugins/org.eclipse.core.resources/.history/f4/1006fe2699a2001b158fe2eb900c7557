@@ -1,8 +1,0 @@
-package njust.dataclass;
-
-public class LoginService {
-	public boolean finishLogin(Login login){
-		LoginDAO logdao = new LoginDAO();
-		Login testLogin = logdao.getLogin(login.getUserid());
-	}
-}
