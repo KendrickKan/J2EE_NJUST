@@ -16,7 +16,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<meta http-equiv="expires" content="0">    
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 	<meta http-equiv="description" content="This is my page">
-	<meta http-equiv="refresh" content="5,manageCourse.jsp">
+	<meta http-equiv="refresh" content="5,CourseController">
 	<!--
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	-->
@@ -26,6 +26,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
   	<%
   		String mainuserid = (String)request.getSession().getAttribute("controllerUserid");
+  		session.setAttribute("mainuserid", mainuserid);
   		request.getSession().setAttribute("mainuserid", mainuserid);
   	%>
     <h1>This is main JSP page.</h1>

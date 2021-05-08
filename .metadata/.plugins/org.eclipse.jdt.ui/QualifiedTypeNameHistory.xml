@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
@@ -14,15 +12,21 @@
 <fullyQualifiedTypeName name="java.sql.Date"/>
 <fullyQualifiedTypeName name="java.util.Locale"/>
 <fullyQualifiedTypeName name="sun.util.resources.LocaleData"/>
-<fullyQualifiedTypeName name="njust.controller.CourseController"/>
-<fullyQualifiedTypeName name="njust.dataclass.courseDAO"/>
 <fullyQualifiedTypeName name="njust.dataclass.CourseService"/>
 <fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.Out"/>
 <fullyQualifiedTypeName name="org.apache.naming.java.javaURLContextFactory"/>
 <fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.runtime.MarshallerImpl"/>
-<fullyQualifiedTypeName name="njust.dataclass.course"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="njust.dataclass.Login"/>
+<fullyQualifiedTypeName name="njust.utils.DBUtil"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="njust.dataclass.course"/>
+<fullyQualifiedTypeName name="njust.controller.CourseController"/>
+<fullyQualifiedTypeName name="njust.dataclass.coursePage"/>
+<fullyQualifiedTypeName name="njust.dataclass.courseDAO"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

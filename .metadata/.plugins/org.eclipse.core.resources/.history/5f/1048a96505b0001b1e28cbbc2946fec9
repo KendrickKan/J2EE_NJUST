@@ -1,0 +1,17 @@
+package njust.dataclass;
+
+import java.util.List;
+
+public class coursePage {
+
+	private int currentPage;
+	
+	private int pageSize;
+	
+	private int totalCount;
+	
+	private int totalPage;
+	
+	private List<course> courses;
+	
+}

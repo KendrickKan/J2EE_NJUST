@@ -1,0 +1,13 @@
+package njust.dataclass;
+
+public class coursePage {
+
+	private int currentPage;
+	
+	private int pageSize;
+	
+	private int totalCount;
+	
+	private int 
+	
+}

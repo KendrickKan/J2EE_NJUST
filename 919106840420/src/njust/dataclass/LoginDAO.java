@@ -24,12 +24,16 @@ public class LoginDAO {
             e.printStackTrace();
         }
 		
-		Login login = new Login();
-		login.setPassword((String)lsitMaps.get(0).get("password"));
-		login.setName((String)lsitMaps.get(0).get("name"));
-		login.setDepartment((String)lsitMaps.get(0).get("department"));
-		login.setUserid((String)lsitMaps.get(0).get("userid"));
-		login.setAcademy((String)lsitMaps.get(0).get("academy"));
+        Login login = null;
+        if(!lsitMaps.isEmpty())
+        {
+        	login = new Login();
+        	login.setPassword((String)lsitMaps.get(0).get("password"));
+        	login.setName((String)lsitMaps.get(0).get("name"));
+        	login.setDepartment((String)lsitMaps.get(0).get("department"));
+        	login.setUserid((String)lsitMaps.get(0).get("userid"));
+        	login.setAcademy((String)lsitMaps.get(0).get("academy"));
+        }
 		return login;
 //		   Connection conn =null;
 //		   Statement stmt = null;
@@ -103,7 +107,7 @@ public class LoginDAO {
 //			   return false;
 //		   }	
 	}
-	public static void main(String[] args) {
+//	public static void main(String[] args) {
 //		LoginDAO testDao = new LoginDAO();
 //		Login testlogin = null;
 //		testlogin = testDao.getLogin("919106840420");
@@ -118,5 +122,5 @@ public class LoginDAO {
 //		testLogin.setDepartment("智能科学与技术");
 //		System.out.println(testDao.addLogin(testLogin));
 ////		System.out.println(testDao.addLogin(testLogin));
-	}
+//	}
 }

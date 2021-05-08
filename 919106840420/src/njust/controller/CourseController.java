@@ -2,6 +2,7 @@ package njust.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -11,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.jasper.tagplugins.jstl.core.Out;
 
 import njust.dataclass.courseDAO;
+import njust.dataclass.coursePage;
 import njust.dataclass.CourseService;
 import njust.dataclass.course;
 
@@ -30,7 +32,41 @@ public class CourseController extends HttpServlet {
 		super.destroy(); // Just puts "destroy" string in log
 		// Put your code here
 	}
+	
+	  public void doGet(HttpServletRequest request,
+              HttpServletResponse response)
+      throws ServletException, IOException
+	  {
+		  //response.setContentType("text/html");
+		  response.setContentType("text/html;charset=gb2312");
+		  CourseService conCourseService = new CourseService();
+		  
+		  coursePage temPage = new coursePage();//将分页所需的字段组装完成
+		  
+		  String cPage = request.getParameter("currentPage");
+			if(cPage == null)
+			{
+				cPage = "1";
+			}
+			int currentPage = Integer.parseInt(cPage);
+			
+			temPage.setCurrentPage(currentPage);
+			
+			//System.out.println((String)request.getAttribute("mainuserid"));
+			temPage.setTotalCount(conCourseService.getTotalCount());
+			//System.out.println(temPage.getTotalCount());
+			
+			int pageSize = 4;
+			temPage.setPageSize(pageSize);
+			
+			List<course> lcourses = conCourseService.getCourseByPage(currentPage, pageSize);
+			temPage.setCourses(lcourses);
+			request.setAttribute("kPage", temPage);
+			request.getRequestDispatcher("manageCourseByPage.jsp").forward(request, response);
 
+	  }
+	
+	
 	/**
 		 * The doPost method of the servlet. <br>
 		 *
@@ -63,9 +99,8 @@ public class CourseController extends HttpServlet {
 				request.getRequestDispatcher("failure.jsp").forward(request, response);
 			}
 		}
-		else
+		else if ((int)request.getSession().getAttribute("errno")==201)
 		{
-
 			String[] ids = request.getParameterValues("xuhao");
 			if(ids != null){
 				CourseService conCourseService = new CourseService();
@@ -111,6 +146,18 @@ public class CourseController extends HttpServlet {
 			//String id = request.getParameter("checbox");
 			//System.out.println(id);
 		}
+//		else{
+//			String cPage = request.getParameter("currentPage");
+//			if(cPage == null)
+//			{
+//				cPage = "1";
+//			}
+//			int currentPage = Integer.parseInt(cPage);
+//			CourseService conCourseService = new CourseService();
+//			List<course> lcourses = conCourseService.getCourseByPage(currentPage, 5);
+//			request.setAttribute("courses", lcourses);
+//			request.getRequestDispatcher("manageCourse.jsp").forward(request, response);
+//		}
 		
 		
 //		PrintWriter out = response.getWriter();
