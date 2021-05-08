@@ -1,0 +1,41 @@
+package njust.utils;
+
+import java.sql.SQLException;
+import java.util.HashMap;
+import java.util.Map;
+
+import njust.dataclass.course;
+
+public class DBCourseManagementTest {
+	
+	
+	private static void testInsertSingleCourses(course testCourse){
+		Map<String, Object> map = new HashMap<>();    
+		map.put("id",testCourse.getId());
+		map.put("title", testCourse.getTitle());
+		map.put("userid", testCourse.getUserid());
+		map.put("name", testCourse.getName());
+		map.put("newdate", testCourse.getNewdate());
+		map.put("newtime", testCourse.getNewtime());
+		try {
+            int count = DBUtil.insert("course", map);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+	}
+	
+
+	public static void main(String[] args) {
+		course testCourse = new course();
+    	// 1.测试单条插入
+ //   	testInsertSingleCourses();
+    	// 2.测试更新
+//    	testUpdateCourse();
+    	// 3.测试删除
+//    	testDeleteCourse();
+    	// 4.测试批量插入
+//    	testBatchInsert(10);
+
+    }
+	
+}

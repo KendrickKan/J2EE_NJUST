@@ -1,0 +1,33 @@
+package njust.utils;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import njust.dataclass.course;
+
+public class DBCourseManagementTest {
+	
+	
+	private static void testInsertSingleCourses(course testCourse){
+		Map<String, Object> map = new HashMap<>();    
+		map.put("id",testCourse.getId());
+		map.put("title", testCourse.getTitle());
+		map.put("userid", testCourse.getUserid());
+		map.put("title", "J2EE");
+		map.put("title", "J2EE");
+	}
+	
+
+	public static void main(String[] args) {
+    	// 1.测试单条插入
+ //   	testInsertSingleCourses();
+    	// 2.测试更新
+//    	testUpdateCourse();
+    	// 3.测试删除
+//    	testDeleteCourse();
+    	// 4.测试批量插入
+//    	testBatchInsert(10);
+
+    }
+	
+}

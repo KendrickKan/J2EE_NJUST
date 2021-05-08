@@ -1,0 +1,25 @@
+package njust.utils;
+
+import njust.dataclass.course;
+
+public class DBCourseManagementTest {
+	
+	
+	private static void testInsertSingleCourses(course testCourse){
+		
+	}
+	
+
+	public static void main(String[] args) {
+    	// 1.测试单条插入
+ //   	testInsertSingleCourses();
+    	// 2.测试更新
+//    	testUpdateCourse();
+    	// 3.测试删除
+//    	testDeleteCourse();
+    	// 4.测试批量插入
+//    	testBatchInsert(10);
+
+    }
+	
+}
