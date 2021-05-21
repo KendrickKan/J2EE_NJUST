@@ -14,7 +14,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <head>
     <base href="<%=basePath%>">
     
-    <title>My JSP 'manageCourse.jsp' starting page</title>
+    <title>作业管理界面</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -28,19 +28,28 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
+  <center>
     <h1>This is manageCourse JSP page.</h1>
     <h1>欢迎来到你的作业管理界面</h1>
-    	你的学号:
+    	&nbsp;你的学号:
     <%
     	String userid = (String)request.getSession().getAttribute("mainuserid");
     	request.getSession().setAttribute("userid", userid);
-    	out.println(userid+"<br>");
+    	out.println(userid+"&nbsp;&nbsp;&nbsp;");
     	out.println("你的姓名:");
     	LoginDAO logd = new LoginDAO();
     	Login log = logd.getLogin(userid);
-    	out.println(log.getName()+"<br>");
+    	out.println(log.getName()+"&nbsp;&nbsp;&nbsp;");
     %>
-    	<table border="1px" cellspacing="0px" style="border-collapse:collapse" bordercolor="black">
+    	<table width="830" heieight="200" border="1px" cellspacing="0px" style="border-collapse:collapse" bordercolor="black">
+    	<tr bgcolor="#8CB9AC" style='width:100px;text-align:center; color:#FFFFFF; font-family:Tahoma; font-size:14pt;'>
+    	<td width="100">序号</td>
+    	<td width="280">作业标题</td>
+    	<td width="150">创建者</td>
+    	<td width="150">创建日期</td>
+    	<td width="150">创建时间</td>
+    	</tr>
+ <!--
     <tr>
         <th style="text-align:center;vertical-align:middle">
         <div style="width: 100%;">
@@ -68,6 +77,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     	</div>
 		</th>
     </tr>
+-->    
     <%
     	//courseDAO coursedao = new courseDAO();
     	coursePage temppage = (coursePage)request.getAttribute("kPage");
@@ -81,7 +91,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			    cou =(course) curList.get(index);
 		     	if(cou != null){
 		     	%>
-		     	  <tr>
+		     	  <tr bgcolor='#DCE6E1' style='text-align:center; color:#285548; font-family:Tahoma; font-size:12pt;'>
         			<td height="50" style="text-align:center"><input type="checkbox" name="xuhao" value="<%=cou.getId() %>"style="text-align:center"><%=cou.getId()%><br></td>
         			<td height="50" style="text-align:center"><%=cou.getTitle() %></td>
         			<td height="50" style="text-align:center"><%=cou.getName() %></td>
@@ -94,15 +104,17 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		     }
     	}
      %>
+     &nbsp;&nbsp;
      <form method="post" action="addCourse.jsp" name="form1">
-     <input type="submit" value="新增">
+     	<input type="submit" value="新增">
      </form>
-     &nbsp;
+     &nbsp;&nbsp;
      <form method="post" action="delCourse.jsp" name="form2">
-     <input type="submit" value="删除">
+     	<input type="submit" value="删除">
      </form>
-     
-     &nbsp;
+     </table>
+     <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      <a href="CourseController?currentPage=1">首页</a>
      &nbsp;
      <a href="CourseController?currentPage=<%=temppage.getCurrentPage()-1 %>">上一页</a>
@@ -113,6 +125,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
      &nbsp;
      当前页:<%=temppage.getCurrentPage() %>&nbsp;&nbsp;总页数:<%=temppage.getTotalPage() %>
      <br>
-    
+    </center>
   </body>
 </html>

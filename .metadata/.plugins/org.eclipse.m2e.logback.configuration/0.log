@@ -423,3 +423,25 @@ org.eclipse.core.runtime.OperationCanceledException: null
 2021-05-08 22:39:17,078 [Worker-11] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\3\store
 2021-05-08 22:39:17,174 [Worker-11] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\4\store
 2021-05-08 22:39:17,246 [Worker-11] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\5\store
+2021-05-09 15:59:07,973 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-09 16:05:15,835 [Worker-7] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2021-05-09 16:05:15,925 [Worker-7] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2021-05-09 16:05:16,036 [Worker-7] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2021-05-09 16:05:16,102 [Worker-7] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\3\store
+2021-05-09 16:05:16,213 [Worker-7] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\4\store
+2021-05-09 16:05:16,268 [Worker-7] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\5\store
+2021-05-09 16:08:55,872 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-19 19:23:47,170 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-05-19 19:24:33,960 [Worker-0] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2021-05-19 19:24:34,048 [Worker-0] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2021-05-19 19:24:34,177 [Worker-0] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2021-05-19 19:24:34,236 [Worker-0] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\3\store
+2021-05-19 19:24:34,382 [Worker-0] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\4\store
+2021-05-19 19:24:34,439 [Worker-0] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\5\store
+2021-05-21 09:51:37,492 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-05-21 09:53:10,938 [Worker-1] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\0\store
+2021-05-21 09:53:19,211 [Worker-11] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\1\store
+2021-05-21 09:53:19,305 [Worker-11] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\2\store
+2021-05-21 09:53:19,322 [Worker-11] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\3\store
+2021-05-21 09:53:19,419 [Worker-11] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\4\store
+2021-05-21 09:53:19,466 [Worker-11] INFO  j.exodus.env.EnvironmentImpl - Exodus environment created: D:\JavaEEworkspace\.metadata\com.genuitec.eclipse.webclipse.livepreview\5\store
