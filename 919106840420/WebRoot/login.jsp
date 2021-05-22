@@ -23,10 +23,18 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-  <div style="display: block; margin: 0 auto; width: 30%; ">
+  <div align="center">
+  <img src="img/logo.png" width="400" />
+  &emsp;&emsp;&emsp;&emsp;
+  <img src="img/cselogo.png" width="400" />
+  </div>
+  <div align="center">
   	<h1>课程作业管理系统</h1>
   
     <form method="post" action="LoginController" name="form1">
+    <fieldset style="border-radius:13px; width:400px;">
+		<legend align="center">个人信息</legend>
+			<br>
 			用&emsp;户:&emsp;<input type="text" name="user" style="width:200px; height:20px;text-align:center;">
 			<br><br>
 			密&emsp;码:&emsp;<input type="password" name="password" style="width:200px; height:20px;text-align:center;">
@@ -50,13 +58,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						
 			<br>
 			<br>
-			&emsp;&emsp;
+			
 			
 			<input type="submit" value="登录">
-			&emsp;&emsp;
+			&emsp;&emsp;&emsp;
 			<a href="https://github.com/KendrickKan">帮助</a>
-			&emsp;&emsp;
+			&emsp;&emsp;&emsp;
 			<a href="https://github.com/KendrickKan">忘密</a>
+			</fieldset>
 		</form>
 		</div>
   </body>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\JavaEEworkspace"/>
+		<item value="D:\JavaEEworkspace\User_918106840753"/>
 		<item value="D:\JavaEEworkspace\SixthHomework_2021"/>
 		<item value="D:\JavaEEworkspace\AdvancedJDBCApp"/>
 		<item value="D:\JavaEEworkspace\FirstJDBCApp"/>

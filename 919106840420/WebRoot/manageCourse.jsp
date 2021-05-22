@@ -27,6 +27,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
+  <div align="center">
+  <img src="img/logo.png" width="400" />
+  &emsp;&emsp;&emsp;&emsp;
+  <img src="img/cselogo.png" width="400" />
+  </div>
     <h1>This is manageCourse JSP page.</h1>
     <h1>欢迎来到你的作业管理界面</h1>
     	你的学号:
