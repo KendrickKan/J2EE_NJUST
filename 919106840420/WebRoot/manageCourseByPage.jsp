@@ -46,7 +46,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     	Login log = logd.getLogin(userid);
     	out.println(log.getName()+"&nbsp;&nbsp;&nbsp;");
     %>
-    	<table width="830" heieight="200" border="1px" cellspacing="0px" style="border-collapse:collapse" bordercolor="black">
+    	<table width="830" height="200" border="1px" cellspacing="0px" style="border-collapse:collapse" bordercolor="black">
     	<tr bgcolor="#8CB9AC" style='width:100px;text-align:center; color:#FFFFFF; font-family:Tahoma; font-size:14pt;'>
     	<td width="100">序号</td>
     	<td width="280">作业标题</td>

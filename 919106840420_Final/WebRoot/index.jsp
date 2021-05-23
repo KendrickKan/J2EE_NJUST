@@ -15,6 +15,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<meta http-equiv="expires" content="0">    
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 	<meta http-equiv="description" content="This is my page">
+	<meta http-equiv="refresh" content="1,ReviewController">
 	<!--
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	-->
@@ -22,5 +23,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
     你好This is my JSP page. <br>
+    <h1>一秒后将来到manageReviewByPage.jsp页面</h1>
   </body>
 </html>

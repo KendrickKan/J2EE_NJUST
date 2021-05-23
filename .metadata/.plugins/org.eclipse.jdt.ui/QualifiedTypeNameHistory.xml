@@ -27,6 +27,10 @@
 <fullyQualifiedTypeName name="njust.controller.CourseController"/>
 <fullyQualifiedTypeName name="njust.dataclass.coursePage"/>
 <fullyQualifiedTypeName name="njust.dataclass.courseDAO"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="njust.dao.ReviewDao"/>
+<fullyQualifiedTypeName name="njust.service.ReviewService"/>
+<fullyQualifiedTypeName name="njust.entity.ReviewPage"/>
+<fullyQualifiedTypeName name="njust.entity.Review"/>
 </qualifiedTypeNameHistroy>
