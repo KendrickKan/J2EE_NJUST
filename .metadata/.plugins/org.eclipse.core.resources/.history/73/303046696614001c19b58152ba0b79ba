@@ -1,0 +1,58 @@
+package njust.dao;
+
+import njust.utils.*;
+
+import java.sql.*;
+
+import javax.sql.*;
+import java.util.*;
+
+import org.eclipse.jdt.internal.compiler.batch.Main;
+
+public class MyOJDAO {
+
+	public String getPassword(String id){
+		   Connection conn =null;
+		   Statement stmt = null;
+		   ResultSet rs = null;
+		   String ans = "";
+		   
+		   String sql = "select * from review_log where reviewId="+id;
+		   try{
+			     conn = SimpleJDBCUtils.getConnection();
+			     stmt = conn.createStatement();
+			     rs = stmt.executeQuery(sql);
+			     while(rs.next()){
+			    	 ans = new ans(rs.getString(2));
+			
+//			    	 System.out.println(rs.getString(1));
+//			    	 System.out.println(rs.getString(2));
+//			    	 System.out.println(rs.getString(3));
+			     }
+			   }catch(SQLException e){
+				   e.printStackTrace();
+				   return null;
+			   }catch(Exception e){
+				   e.printStackTrace();
+			   };
+		   return ans;
+	}
+	
+
+	public static void main(String[] args) {
+//		ReviewDao testDao = new ReviewDao();
+//		List<Review> curList = testDao.getCourseByPage(2, 2);
+//		Review cou = null;
+//		if(!curList.isEmpty()){
+//    		int size = curList.size();
+//    		int index =0; //starting from 0
+//    		 while (index < size){	      	    
+//			    cou =(Review) curList.get(index);
+//		     	if(cou != null){
+//		     		System.out.println(cou.getPapertitle());
+//			    }
+//			    index = index +1;
+//		     }
+//		}
+	}
+}

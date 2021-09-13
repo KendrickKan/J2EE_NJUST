@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SimpleJDBCUtils.java&apos; to &apos;MyOj/src/njust.utils&apos;&#x0D;&#x0A;- Original project: &apos;FirstJDBCApp&apos;&#x0D;&#x0A;- Destination element: &apos;MyOj/src/njust.utils&apos;&#x0D;&#x0A;- Original element: &apos;njust.utils.SimpleJDBCUtils.java&apos;" description="Copy compilation unit" destination="=MyOj/src&lt;njust.utils" element1="/src&lt;njust.utils{SimpleJDBCUtils.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1631518531739" units="1" version="1.0"/>
+</session>
