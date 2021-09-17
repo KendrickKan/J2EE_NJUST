@@ -1,0 +1,10 @@
+# DataSource Config
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://124.70.8.112:26000/myoj
+    username: lkl
+    password: 9191062301LKL#
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
