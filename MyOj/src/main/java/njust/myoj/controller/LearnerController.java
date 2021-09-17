@@ -8,13 +8,16 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.*;
 
+/**
+ * @author 21
+ */
 @RestController
 public class LearnerController {
     @Autowired
     LearnerService learnerService;
 
     @GetMapping("/api/Learners")
-    public List<Learner> list() throws Exception {
+    public List<Learner> list() {
         return learnerService.list();
     }
 }
