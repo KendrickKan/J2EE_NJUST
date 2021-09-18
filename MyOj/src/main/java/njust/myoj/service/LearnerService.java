@@ -15,4 +15,11 @@ public class LearnerService {
     public List<Learner> list() {
         return learnerMapper.selectList(null);
     }
+    public int insert(Learner learner){
+        return learnerMapper.insert(learner);
+    }
+    public boolean login(String pid,String password){
+        System.out.println(learnerMapper.selectById(pid).toString());
+        return learnerMapper.selectById(pid).getPassword().equals(password);
+    }
 }

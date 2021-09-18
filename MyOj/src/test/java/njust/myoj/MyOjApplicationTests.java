@@ -17,10 +17,8 @@ class MyOjApplicationTests {
     @Test
     void contextLoads() {
         System.out.println("Hello");
-        List<Learner> userList = learnerMapper.selectList(null);
-        for(Learner user:userList) {
-            System.out.println(user);
-        }
+//        System.out.println(learnerMapper.selectById("919106840423").getPassword());
+
     }
 
 }
