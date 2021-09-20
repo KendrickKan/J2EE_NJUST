@@ -12,6 +12,9 @@ import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author 21
+ */
 @Configuration
 public class FJsonConfig {
 

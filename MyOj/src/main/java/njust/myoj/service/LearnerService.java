@@ -7,6 +7,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.*;
 
+/**
+ * @author 21
+ */
 @Service
 public class LearnerService {
     @Autowired
@@ -15,11 +18,23 @@ public class LearnerService {
     public List<Learner> list() {
         return learnerMapper.selectList(null);
     }
+    public boolean pidIfExit(String pid)
+    {
+        Learner learners = learnerMapper.selectById(pid);
+        //查询到已有，返回true
+        return learners != null;
+    }
     public int insert(Learner learner){
+        if(pidIfExit(learner.getPid())) {
+            return 0;
+        }
         return learnerMapper.insert(learner);
     }
     public boolean login(String pid,String password){
-        System.out.println(learnerMapper.selectById(pid).toString());
         return learnerMapper.selectById(pid).getPassword().equals(password);
+    }
+    public int update(Learner learner)
+    {
+        return learnerMapper.updateById(learner);
     }
 }
