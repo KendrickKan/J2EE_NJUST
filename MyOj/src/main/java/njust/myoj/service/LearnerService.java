@@ -18,14 +18,14 @@ public class LearnerService {
     public List<Learner> list() {
         return learnerMapper.selectList(null);
     }
-    public boolean pidIfExit(String pid)
+    public Learner pidIfExit(String pid)
     {
-        Learner learners = learnerMapper.selectById(pid);
-        //查询到已有，返回true
-        return learners != null;
+        //查询到已有，返回learner
+        return learnerMapper.selectById(pid);
+
     }
     public int insert(Learner learner){
-        if(pidIfExit(learner.getPid())) {
+        if(pidIfExit(learner.getPid())==null) {
             return 0;
         }
         return learnerMapper.insert(learner);
@@ -33,8 +33,10 @@ public class LearnerService {
     public boolean login(String pid,String password){
         return learnerMapper.selectById(pid).getPassword().equals(password);
     }
-    public int update(Learner learner)
-    {
+    public int update(Learner learner) {
         return learnerMapper.updateById(learner);
+    }
+    public Learner getLearnerByID(Learner learner){
+        return learnerMapper.selectById(learner.getPid());
     }
 }
