@@ -5,8 +5,8 @@ import lombok.Data;
 
 @Data
 public class Team {
-    @TableId("tid")
-    private String tid;
+    @TableId("teamid")
+    private String teamid;
     private String lid;
     private Integer level;
     private Integer numofque;

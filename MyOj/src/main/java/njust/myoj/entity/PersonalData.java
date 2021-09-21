@@ -63,4 +63,8 @@ public class PersonalData {
         this.setProgresspercentage(0);
 
     }
+
+    public Integer getCorrectNum(){
+        return this.getMath_correct()+getChinese_correct()+getEnglish_correct();
+    }
 }

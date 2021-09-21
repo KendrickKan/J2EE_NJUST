@@ -1,9 +1,11 @@
 package njust.myoj.entity;
 
 
-import com.baomidou.mybatisplus.annotation.*;
+import com.alibaba.fastjson.annotation.JSONField;
+import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
-import java.sql.*;
+
+import java.sql.Date;
 
 @Data
 public class Learner {
@@ -14,6 +16,7 @@ public class Learner {
     private Integer grade;
     private Integer level;
     private String name;
+    @JSONField(format = "yyyy-MM-dd")
     private Date birthday;
     private Integer age;
     private String creed;
