@@ -49,4 +49,8 @@ public class LearnerService {
     public Learner getLearnerByID(Learner learner) {
         return learnerMapper.selectById(learner.getPid());
     }
+
+    public Learner getLearnerByID(String pid){
+        return learnerMapper.selectById(pid);
+    }
 }
