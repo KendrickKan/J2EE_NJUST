@@ -15,19 +15,11 @@ public class Paper {
     private Integer type;
     private Integer difficulty;
     private List<TestLibrary> test;
+    private List<History> histories;
 
-    //    private TestLibrary test2;
-//    private TestLibrary test3;
-//    private TestLibrary test4;
-//    private TestLibrary test5;
-//    private TestLibrary test6;
-//    private TestLibrary test7;
-//    private TestLibrary test8;
-//    private TestLibrary test9;
-//    private TestLibrary test10;
-
-    public Paper(){
-        this.test= new ArrayList<>();
+    public Paper() {
+        this.test = new ArrayList<>();
+        this.histories = new ArrayList<>();
     }
 
     public void insertTest(TestLibrary testLibrary) {
