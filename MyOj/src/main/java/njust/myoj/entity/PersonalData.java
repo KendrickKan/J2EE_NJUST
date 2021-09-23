@@ -5,6 +5,9 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
+/**
+ * @author 21
+ */
 @Data
 @TableName("personaldata")
 public class PersonalData {
@@ -77,7 +80,7 @@ public class PersonalData {
             }
             this.setCorrectrate_ma(this.math_correct*10000/this.math_done);
         }
-        if (testLibrary.getSubject() == 2) {
+        else if (testLibrary.getSubject() == 2) {
             this.chinese_done++;
             if (history.isCorrectness()) {
                 this.chinese_correct++;
@@ -85,7 +88,7 @@ public class PersonalData {
             }
             this.setCorrectrate_ch(this.chinese_correct*10000/this.chinese_done);
         }
-        if (testLibrary.getSubject() == 3) {
+        else if (testLibrary.getSubject() == 3) {
             this.english_done++;
             if (history.isCorrectness()) {
                 this.english_correct++;

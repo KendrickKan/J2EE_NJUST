@@ -12,4 +12,10 @@ public class Team {
     private Integer numofque;
     private String name;
     private Integer picforhead;
+
+    public void updateTeam(History history) {
+        if (history.isCorrectness()) {
+            this.numofque++;
+        }
+    }
 }

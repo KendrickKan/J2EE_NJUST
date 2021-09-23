@@ -1,12 +1,10 @@
 package njust.myoj.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import njust.myoj.entity.History;
-import njust.myoj.entity.Paper;
-import njust.myoj.entity.PersonalData;
-import njust.myoj.entity.TestLibrary;
+import njust.myoj.entity.*;
 import njust.myoj.mapper.HistoryMapper;
 import njust.myoj.mapper.PersonalDataMapper;
+import njust.myoj.mapper.TeamMapper;
 import njust.myoj.mapper.TestLibraryMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -30,6 +28,8 @@ public class TestService {
     HistoryMapper historyMapper;
     @Autowired
     PersonalDataMapper personalDataMapper;
+    @Autowired
+    TeamMapper teamMapper;
     @Autowired
     TeamService teamService;
 
@@ -56,7 +56,7 @@ public class TestService {
             return null;
         }
         SimpleDateFormat dateformat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        String timeStr1= LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+        String timeStr1 = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
         Date dotime = null;
         try {
             dotime = dateformat.parse(timeStr1);
@@ -91,12 +91,46 @@ public class TestService {
             personalData.updatePersonalData(testLibrary, history1);
             personalDataMapper.updateById(personalData);
             //再更新team;
-            if (teamService.getTeamDataAsMember(history.getPid()) != null) {
-
+            TeamDataAsMember teamDataAsMember = teamService.getTeamDataAsMember(history.getPid());
+            if (teamDataAsMember != null) {
+                Team team = teamMapper.selectById(teamDataAsMember.getTeamid());
+                team.updateTeam(history1);
+                teamMapper.updateById(team);
             }
             //写函数
         }
         return paper;
+    }
+
+    public TestLibrary getTestByID(String qid) {
+        return testLibraryMapper.selectById(qid);
+    }
+
+    public Paper getPaperReview(Paper paper) {
+        QueryWrapper<History> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("pid", paper.getPid());
+        queryWrapper.and(i -> i.eq("correctness", false));
+        List<History> historylist = historyMapper.selectList(queryWrapper);
+        if (historylist.size() < 10) {
+            return null;
+        }
+        int i = 0;
+        for (History history : historylist) {
+            paper.insertTest(testLibraryMapper.selectById(history.getQid()));
+            i++;
+            if (i == 10) {
+                break;
+            }
+        }
+        return paper;
+    }
+
+    public List<History> getHistory(String pid) {
+        QueryWrapper<History> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("pid", pid);
+        List<History> historylist = historyMapper.selectList(queryWrapper);
+        return historylist;
+
     }
 
 }
