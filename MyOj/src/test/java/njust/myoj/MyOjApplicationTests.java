@@ -18,13 +18,15 @@ class MyOjApplicationTests {
     void contextLoads() {
         System.out.println("Hello");
         Paper paper = new Paper();
+        paper.setPid("919106840421");
         paper.setDifficulty(1);
         paper.setSubject(1);
         paper.setType(1);
         paper = testService.getPaper(paper);
-        for (TestLibrary testLibrary : paper.getTest()) {
-            System.out.println(testLibrary);
-        }
+        if (paper != null)
+            for (TestLibrary testLibrary : paper.getTest()) {
+                System.out.println(testLibrary);
+            }
     }
 
 }

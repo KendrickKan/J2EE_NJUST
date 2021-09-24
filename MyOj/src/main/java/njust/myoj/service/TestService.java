@@ -32,8 +32,13 @@ public class TestService {
     TeamMapper teamMapper;
     @Autowired
     TeamService teamService;
+    @Autowired
+    LearnerService learnerService;
 
     public Paper getPaper(Paper paper) {
+        if (learnerService.pidIfExit(paper.getPid()) == null) {
+            return null;
+        }
         QueryWrapper<TestLibrary> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("subject", paper.getSubject());
         queryWrapper.and(i -> i.eq("difficulty", paper.getDifficulty()).and(j -> j.eq("classification_forans", paper.getType())));

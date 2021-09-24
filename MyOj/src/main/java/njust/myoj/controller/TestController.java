@@ -25,10 +25,15 @@ public class TestController {
     @RequestMapping(value = "api/getPaper", method = RequestMethod.POST)
     public Object getPaper(@RequestBody Paper paper) {
         JsonResult jr = new JsonResult();
-        jr.setCode(200);
-        jr.setMsg("获取成功");
         paper = testService.getPaper(paper);
-        jr.setObj(paper);
+        if(paper!=null) {
+            jr.setCode(200);
+            jr.setMsg("获取成功");
+            jr.setObj(paper);
+            return jr;
+        }
+        jr.setCode(201);
+        jr.setMsg("获取失败");
         return jr;
     }
 
