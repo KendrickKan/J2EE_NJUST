@@ -1,6 +1,7 @@
 package njust.myoj.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import javafx.util.Pair;
 import njust.myoj.entity.Learner;
 import njust.myoj.entity.PersonalData;
 import njust.myoj.entity.Team;
@@ -10,6 +11,9 @@ import njust.myoj.mapper.TeamDataAsMemberMapper;
 import njust.myoj.mapper.TeamMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -65,7 +69,7 @@ public class TeamService {
             return 2;
         }//如果查询到这个人有小队了，就不能那个啥了
         Team team = teamMapper.selectById(teamid);
-        if (team== null) {
+        if (team == null) {
             return 3;
         }//小队编号错误
         //改变team的属性之类的
@@ -84,19 +88,34 @@ public class TeamService {
         teamDataAsMemberMapper.insert(teamDataAsMember);
         return 1;//成功
     }
-    public Team getTeam(String teamid){
+
+    public Team getTeam(String teamid) {
         return teamMapper.selectById(teamid);
     }
 
     public int updateTeam(Team team) {
-        if(this.getTeam(team.getTeamid())==null){
+        if (this.getTeam(team.getTeamid()) == null) {
             return -2;
         }
         return teamMapper.updateById(team);
     }
-    public TeamDataAsMember getTeamDataAsMember(String pid){
+
+    public TeamDataAsMember getTeamDataAsMember(String pid) {
         QueryWrapper<TeamDataAsMember> queryWrapperTeamDataAsMember = new QueryWrapper<>();
         queryWrapperTeamDataAsMember.eq("pid", pid);
         return teamDataAsMemberMapper.selectOne(queryWrapperTeamDataAsMember);
     }
+
+    public void updateTeamAndTeamDataAsMember(String teamid) {
+        QueryWrapper<TeamDataAsMember> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("teamid", teamid);
+        List<TeamDataAsMember> teamDataAsMemberList = teamDataAsMemberMapper.selectList(queryWrapper);
+        List<Pair<TeamDataAsMember, PersonalData>> pairList = new ArrayList<>();
+        for (TeamDataAsMember teamDataAsMember : teamDataAsMemberList) {
+            String pid = teamDataAsMember.getPid();
+            PersonalData personalData = personalDataService.getPersonalData(pid);
+            Pair<TeamDataAsMember, PersonalData> p = new Pair<>(teamDataAsMember, personalData);
+        }
+    }
+
 }
