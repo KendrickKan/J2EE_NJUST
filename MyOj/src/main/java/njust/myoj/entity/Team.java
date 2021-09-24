@@ -13,7 +13,7 @@ public class Team {
     private String name;
     private Integer picforhead;
 
-    public void updateTeam(History history) {
+    public void updateTeamOneTest(History history) {
         if (history.isCorrectness()) {
             this.numofque++;
         }

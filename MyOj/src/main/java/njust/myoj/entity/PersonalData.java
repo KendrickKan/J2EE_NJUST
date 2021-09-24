@@ -67,8 +67,8 @@ public class PersonalData {
 
     }
 
-    public Integer getCorrectNum() {
-        return this.getMath_correct() + getChinese_correct() + getEnglish_correct();
+    public int getCorrectNum() {
+        return this.math_correct + this.chinese_correct + this.english_correct;
     }
 
     public void updatePersonalData(TestLibrary testLibrary, History history) {
@@ -76,27 +76,26 @@ public class PersonalData {
             this.math_done++;
             if (history.isCorrectness()) {
                 this.math_correct++;
-                this.setProgresspercentage_ma(this.math_correct*10000/81);
+                this.setProgresspercentage_ma(this.math_correct * 10000 / 81);
             }
-            this.setCorrectrate_ma(this.math_correct*10000/this.math_done);
-        }
-        else if (testLibrary.getSubject() == 2) {
+            this.setCorrectrate_ma(this.math_correct * 10000 / this.math_done);
+        } else if (testLibrary.getSubject() == 2) {
             this.chinese_done++;
             if (history.isCorrectness()) {
                 this.chinese_correct++;
-                this.setProgresspercentage_ch(this.chinese_correct*10000/81);
+                this.setProgresspercentage_ch(this.chinese_correct * 10000 / 81);
             }
-            this.setCorrectrate_ch(this.chinese_correct*10000/this.chinese_done);
-        }
-        else if (testLibrary.getSubject() == 3) {
+            this.setCorrectrate_ch(this.chinese_correct * 10000 / this.chinese_done);
+        } else if (testLibrary.getSubject() == 3) {
             this.english_done++;
             if (history.isCorrectness()) {
                 this.english_correct++;
-                this.setProgresspercentage_en(this.english_correct*10000/81);
+                this.setProgresspercentage_en(this.english_correct * 10000 / 81);
             }
-            this.setCorrectrate_en(this.english_correct*10000/this.english_done);
+            this.setCorrectrate_en(this.english_correct * 10000 / this.english_done);
         }
-        this.setCorrectrate((this.math_correct+this.chinese_correct+this.english_correct)*10000/(this.math_done+this.chinese_done+this.english_done));
-        this.setProgresspercentage((this.math_correct+this.chinese_correct+this.english_correct)*10000/243);
+        this.setCorrectrate((this.math_correct + this.chinese_correct + this.english_correct) * 10000 / (this.math_done + this.chinese_done + this.english_done));
+        this.setProgresspercentage((this.math_correct + this.chinese_correct + this.english_correct) * 10000 / 243);
     }
+
 }

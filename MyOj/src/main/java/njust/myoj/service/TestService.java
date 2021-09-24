@@ -2,10 +2,7 @@ package njust.myoj.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import njust.myoj.entity.*;
-import njust.myoj.mapper.HistoryMapper;
-import njust.myoj.mapper.PersonalDataMapper;
-import njust.myoj.mapper.TeamMapper;
-import njust.myoj.mapper.TestLibraryMapper;
+import njust.myoj.mapper.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -22,6 +19,8 @@ import java.util.List;
  */
 @Service
 public class TestService {
+    @Autowired
+    LearnerMapper learnerMapper;
     @Autowired
     TestLibraryMapper testLibraryMapper;
     @Autowired
@@ -68,6 +67,14 @@ public class TestService {
         } catch (ParseException e) {
             e.printStackTrace();
         }
+        //提取个人数据
+        PersonalData personalData = personalDataMapper.selectById(paper.getPid());
+        //提取小队个人信息 检测有没有
+        TeamDataAsMember teamDataAsMember = teamService.getTeamDataAsMember(paper.getPid());
+        Team team = null;
+        if (teamDataAsMember != null) {
+            team = teamMapper.selectById(teamDataAsMember.getTeamid());
+        }
         for (History history : histories) {
 //            //查询某个题答案,如果返回的paper有，不过应该不行
 //            TestLibrary testLibrary = testLibraries.stream()
@@ -80,30 +87,33 @@ public class TestService {
             String qid = history.getQid();
             TestLibrary testLibrary = testLibraryMapper.selectById(qid);
             testLibraries.add(testLibrary);//向试卷加入习题
-            if (!history.getAnswerbefore().equals(testLibrary.getAnswercorrect())) {
-                //答错了
-                history1.setCorrectness(false);
-            } else {
-                history1.setCorrectness(true);
-            }
+            //设置作答正误
+            history1.setCorrectness(history.getAnswerbefore().equals(testLibrary.getAnswercorrect()));
             history1.setQid(qid);
             history1.setDotime(dotime);
             histories.set(historisIndex, history1);//根据下标，修改list里面的元素
             historyMapper.insert(history1);
             //这里还要更改个人信息小队信息等
-            //首先更改personnalData
-            PersonalData personalData = personalDataMapper.selectById(paper.getPid());
+            //更改personnalData
             personalData.updatePersonalData(testLibrary, history1);
-            personalDataMapper.updateById(personalData);
             //再更新team;
-            TeamDataAsMember teamDataAsMember = teamService.getTeamDataAsMember(history.getPid());
-            if (teamDataAsMember != null) {
-                Team team = teamMapper.selectById(teamDataAsMember.getTeamid());
-                team.updateTeam(history1);
-                teamMapper.updateById(team);
+            if (team != null) {
+                team.updateTeamOneTest(history1);
             }
             //写函数
         }
+        //插入personnalData
+        personalDataMapper.updateById(personalData);
+        //更新team 并插入team;
+        if (team != null) {
+            team.setLevel(team.getNumofque() / 30);
+            teamMapper.updateById(team);
+        }
+        //再更新learner 也就是更新level
+        Learner learner = learnerService.getLearnerByID(paper.getPid());
+        learner.setLevel(personalData.getCorrectNum() / 15);//做对15题升一级
+        learnerMapper.updateById(learner);
+        paper.setTest(testLibraries);
         return paper;
     }
 
@@ -133,8 +143,7 @@ public class TestService {
     public List<History> getHistory(String pid) {
         QueryWrapper<History> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("pid", pid);
-        List<History> historylist = historyMapper.selectList(queryWrapper);
-        return historylist;
+        return historyMapper.selectList(queryWrapper);
 
     }
 
