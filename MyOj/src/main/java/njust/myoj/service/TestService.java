@@ -106,14 +106,16 @@ public class TestService {
         personalDataMapper.updateById(personalData);
         //更新team 并插入team;
         if (team != null) {
-            team.setLevel(team.getNumofque() / 30);
+            team.setLevel(team.getNumofque() / 120);
             teamMapper.updateById(team);
         }
         //再更新learner 也就是更新level
         Learner learner = learnerService.getLearnerByID(paper.getPid());
-        learner.setLevel(personalData.getCorrectNum() / 15);//做对15题升一级
+        learner.setLevel(personalData.getCorrectNum() / 60);//做对15题升一级
         learnerMapper.updateById(learner);
         paper.setTest(testLibraries);
+        //再更新team相关数据
+        teamService.updateTeamAndTeamDataAsMember(team.getTeamid());
         return paper;
     }
 

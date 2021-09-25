@@ -124,13 +124,13 @@ public class TeamService {
             @Override
             public int compare(Pair<TeamDataAsMember, PersonalData> p1, Pair<TeamDataAsMember, PersonalData> p2) {
                 if (!p1.getValue().getCorrectrate().equals(p2.getValue().getCorrectrate())) {
-                    return p1.getValue().getCorrectrate() > p2.getValue().getCorrectrate() ? 1 : -1;
+                    return p1.getValue().getCorrectrate() > p2.getValue().getCorrectrate() ? -1 : 1;
                 }
                 if (p1.getValue().getCorrectNum() != p2.getValue().getCorrectNum()) {
-                    return p1.getValue().getCorrectNum() > p2.getValue().getCorrectNum() ? 1 : -1;
+                    return p1.getValue().getCorrectNum() > p2.getValue().getCorrectNum() ? -1 : 1;
                 }
                 if (!p1.getValue().getProgresspercentage().equals(p2.getValue().getProgresspercentage())) {
-                    return p1.getValue().getProgresspercentage() > p2.getValue().getProgresspercentage() ? 1 : -1;
+                    return p1.getValue().getProgresspercentage() > p2.getValue().getProgresspercentage() ? -1 : 1;
                 }
                 return p1.getValue().getPid().compareTo(p2.getValue().getPid());
             }
