@@ -13,6 +13,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 
@@ -106,6 +108,7 @@ public class TeamService {
         return teamDataAsMemberMapper.selectOne(queryWrapperTeamDataAsMember);
     }
 
+
     public void updateTeamAndTeamDataAsMember(String teamid) {
         QueryWrapper<TeamDataAsMember> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("teamid", teamid);
@@ -115,6 +118,42 @@ public class TeamService {
             String pid = teamDataAsMember.getPid();
             PersonalData personalData = personalDataService.getPersonalData(pid);
             Pair<TeamDataAsMember, PersonalData> p = new Pair<>(teamDataAsMember, personalData);
+            pairList.add(p);
+        }
+        Collections.sort(pairList, new Comparator<Pair<TeamDataAsMember, PersonalData>>() {
+            @Override
+            public int compare(Pair<TeamDataAsMember, PersonalData> p1, Pair<TeamDataAsMember, PersonalData> p2) {
+                if (!p1.getValue().getCorrectrate().equals(p2.getValue().getCorrectrate())) {
+                    return p1.getValue().getCorrectrate() > p2.getValue().getCorrectrate() ? 1 : -1;
+                }
+                if (p1.getValue().getCorrectNum() != p2.getValue().getCorrectNum()) {
+                    return p1.getValue().getCorrectNum() > p2.getValue().getCorrectNum() ? 1 : -1;
+                }
+                if (!p1.getValue().getProgresspercentage().equals(p2.getValue().getProgresspercentage())) {
+                    return p1.getValue().getProgresspercentage() > p2.getValue().getProgresspercentage() ? 1 : -1;
+                }
+                return p1.getValue().getPid().compareTo(p2.getValue().getPid());
+            }
+        });
+        int listNum = pairList.size();
+        int i = 1;
+        for (Pair<TeamDataAsMember, PersonalData> p : pairList) {
+            TeamDataAsMember t = p.getKey();
+            t.setRankyesterday(t.getRanktoday());
+            t.setRanktoday(i);
+            t.setIfleader(i == 1);
+            t.setMvptoday(i == 1);
+            t.setUp_or_down(t.getRankyesterday() - t.getRanktoday());
+            QueryWrapper<TeamDataAsMember> queryWrapper1 = new QueryWrapper<>();
+            queryWrapper1.eq("teamid", t.getTeamid());
+            queryWrapper1.and(j -> j.eq("pid", t.getPid()));
+            teamDataAsMemberMapper.update(t, queryWrapper1);
+            if (i == 1) {
+                Team teamTemp = teamMapper.selectById(teamid);
+                teamTemp.setLid(t.getPid());
+                teamMapper.updateById(teamTemp);
+            }
+            i++;
         }
     }
 
