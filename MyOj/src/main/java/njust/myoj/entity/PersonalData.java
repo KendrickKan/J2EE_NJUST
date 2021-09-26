@@ -76,21 +76,21 @@ public class PersonalData {
             this.math_done++;
             if (history.isCorrectness()) {
                 this.math_correct++;
-                this.setProgresspercentage_ma(this.math_correct * 10000 / 2000);
+                this.setProgresspercentage_ma(this.math_done * 10000 / 2000);
             }
             this.setCorrectrate_ma(this.math_correct * 10000 / this.math_done);
         } else if (testLibrary.getSubject() == 2) {
             this.chinese_done++;
             if (history.isCorrectness()) {
                 this.chinese_correct++;
-                this.setProgresspercentage_ch(this.chinese_correct * 10000 / 2000);
+                this.setProgresspercentage_ch(this.chinese_done * 10000 / 2000);
             }
             this.setCorrectrate_ch(this.chinese_correct * 10000 / this.chinese_done);
         } else if (testLibrary.getSubject() == 3) {
             this.english_done++;
             if (history.isCorrectness()) {
                 this.english_correct++;
-                this.setProgresspercentage_en(this.english_correct * 10000 / 100);
+                this.setProgresspercentage_en(this.english_done * 10000 / 100);
             }
             this.setCorrectrate_en(this.english_correct * 10000 / this.english_done);
         }
